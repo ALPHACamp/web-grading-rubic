@@ -14,6 +14,9 @@
 若助教看見同學完成這些，會認定這份作業通過：
 * 能正確取得請求中的 HTTP 與網址
 * 透過撰寫一個 middleware，展示正確的資訊在終端機上
+* Coding Style
+  * 有意義的變數與函式命名
+  * 符合 JavaScript Standard Style
 ### Exceed Expectation
 當同學達成 Meet Expectation 的標準後，助教可以進一步建議同學：
 * 
@@ -29,6 +32,9 @@
 若助教看見同學完成這些，會認定這份作業通過：
 * 能正確取得請求中的 HTTP 與網址
 * 透過撰寫一個 middleware，展示正確的資訊在終端機上
+* Coding Style
+  * 有意義的變數與函式命名
+  * 符合 JavaScript Standard Style
 ### Exceed Expectation
 當同學達成 Meet Expectation 的標準後，助教可以進一步建議同學：
 * 

@@ -25,4 +25,6 @@
 當同學達成 Meet Expectation 的標準後，助教可以進一步建議同學：
 * 有自己客製化/優化 AC 提供的頁面，設計亮眼，
 * 有自己建構新的功能或互動設計，讓使用體驗更良好
-* coding style: 符合 JavaScript Standard style 或是其他業界的 style guide。程式碼沒有任何明顯的錯誤
+* Coding Style
+  * 有意義的變數與函式命名
+  * 符合 JavaScript Standard Style
