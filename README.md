@@ -16,7 +16,7 @@
 
 助教檢視你的工作結果後，會下一個標記，有以下三種：
 
-![ALPHA%20Camp%20%E4%BD%9C%E6%A5%AD%E5%9B%9E%E9%A5%8B%E6%A9%9F%E5%88%B6%20ac70cec9dcd8407fb055f9da342ab0aa/Untitled.png](ALPHA%20Camp%20%E4%BD%9C%E6%A5%AD%E5%9B%9E%E9%A5%8B%E6%A9%9F%E5%88%B6%20ac70cec9dcd8407fb055f9da342ab0aa/Untitled.png)
+![](https://i.imgur.com/Jvthtp5.png)
 
 - 圖片上的文字備份
     - `Meet Expectations` - 助教判斷你的作業品質滿足了【指定期待結果】，也就是說，你做出了該有的水準，可以繼續前進。
@@ -31,15 +31,15 @@ ALPHA Camp 這套網路開發課程的目標是要協助人獲得使用程式能
 
 圍繞這個宗旨，我們會用以下五種檢視產品的角度來判斷你的`作業是否通過`：
 
-![ALPHA%20Camp%20%E4%BD%9C%E6%A5%AD%E5%9B%9E%E9%A5%8B%E6%A9%9F%E5%88%B6%20ac70cec9dcd8407fb055f9da342ab0aa/Untitled%201.png](ALPHA%20Camp%20%E4%BD%9C%E6%A5%AD%E5%9B%9E%E9%A5%8B%E6%A9%9F%E5%88%B6%20ac70cec9dcd8407fb055f9da342ab0aa/Untitled%201.png)
+![](https://i.imgur.com/ZiZlYI4.png)
 
 第一個觀察角度是【指定規格與功能】，這是打造一個產品必須一定要滿足的，如果沒有全數做到，作業不會通過：
 
-![ALPHA%20Camp%20%E4%BD%9C%E6%A5%AD%E5%9B%9E%E9%A5%8B%E6%A9%9F%E5%88%B6%20ac70cec9dcd8407fb055f9da342ab0aa/Untitled%202.png](ALPHA%20Camp%20%E4%BD%9C%E6%A5%AD%E5%9B%9E%E9%A5%8B%E6%A9%9F%E5%88%B6%20ac70cec9dcd8407fb055f9da342ab0aa/Untitled%202.png)
+![](https://i.imgur.com/qwsxXMo.png)
 
 接著，我們針對作業的性質，從另外四個觀察角度來描述出我們期待你現階段要做出什麼。這個【期待結果】是綜合考量了「你目前學會了什麼」以及「實務上該做到什麼程度」，但他也比較含糊，需要透過助教分享他從你的作業中看見什麼，你才能知道什麼行為繼續保持、什麼習慣需要改掉：
 
-![ALPHA%20Camp%20%E4%BD%9C%E6%A5%AD%E5%9B%9E%E9%A5%8B%E6%A9%9F%E5%88%B6%20ac70cec9dcd8407fb055f9da342ab0aa/Untitled%203.png](ALPHA%20Camp%20%E4%BD%9C%E6%A5%AD%E5%9B%9E%E9%A5%8B%E6%A9%9F%E5%88%B6%20ac70cec9dcd8407fb055f9da342ab0aa/Untitled%203.png)
+![](https://i.imgur.com/CTlkhOB.png)
 
 不一定每份作業都能讓助教看出你在 4 個角度的表現，有時候也會有空白。
 
@@ -66,7 +66,7 @@ ALPHA Camp 這套網路開發課程的目標是要協助人獲得使用程式能
 
 請你不要把以下這個表當成 checklist 來「追求滿分」，並不是每個人現階段都需要攻略這些項目。
 
-![ALPHA%20Camp%20%E4%BD%9C%E6%A5%AD%E5%9B%9E%E9%A5%8B%E6%A9%9F%E5%88%B6%20ac70cec9dcd8407fb055f9da342ab0aa/Untitled%204.png](ALPHA%20Camp%20%E4%BD%9C%E6%A5%AD%E5%9B%9E%E9%A5%8B%E6%A9%9F%E5%88%B6%20ac70cec9dcd8407fb055f9da342ab0aa/Untitled%204.png)
+![](https://i.imgur.com/t6GrTST.png)
 
 若你在完成基本規格後，有追求品質的餘力，你可以參考這些優化方向，找出你現階段有共鳴的事情，或者，你有自己想優化的創意，歡迎你用作品與我們對話！
 
