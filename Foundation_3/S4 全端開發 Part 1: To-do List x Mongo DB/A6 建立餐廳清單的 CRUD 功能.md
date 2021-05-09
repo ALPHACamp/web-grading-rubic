@@ -1,4 +1,4 @@
-# 餐廳清單擴充 CRUD 功能
+# A6 餐廳清單擴充 CRUD 功能
 
 ### 題幹
 請參考課程平台([連結](https://lighthouse.alphacamp.co/courses/42/assignments/1038))。
