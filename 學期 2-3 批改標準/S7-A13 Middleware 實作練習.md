@@ -1,6 +1,6 @@
 # A13 Middleware 實作練習
 
-> 💡  在寫這份作業之前，請你務必了解 <a href="https://github.com/Carrot7712/ALPHACamp_assignment_rubrics/blob/main/README.md" target="_blank">ALPHA Camp 作業回饋機制</a>，包括助教會如何批改你的作業，以及你該怎麼使用助教回饋來幫助自己進步
+> 💡  在寫這份作業之前，請你務必了解 <a href="https://github.com/ALPHACamp/web-grading-rubic" target="_blank">ALPHA Camp 作業回饋機制</a>，包括助教會如何批改你的作業，以及你該怎麼使用助教回饋來幫助自己進步
 
 ### 題幹
 請參考課程平台([連結](https://lighthouse.alphacamp.co/courses/42/assignments/1058))。
