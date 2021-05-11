@@ -7,15 +7,22 @@
 
 ## 指定規格與功能
 
-1. 以 To-do List 為範例，建立資料庫並連線餐廳清單，打造完整的 CRUD 功能
-2. 把這支 [restaurant.json](https://drive.google.com/file/d/1W-BD9-c8zJRYCwAD8yhqQdLwcUdN8GZi/view) 裡的資料當成種子資料，完成後新增 `npm run seed` 腳本
-3. 前端頁面請參考上個章節的樣板 index page 與 show page，可自行發揮創意，優化使用體驗 (例如：點擊餐廳照片可直接進入 show page、或是在執行刪除前會瀏覽器會跳出提醒視窗等)
+1. 以 To-do List 為範例，打造以下功能
+   1. 使用者可以新增一家餐廳
+   2. 使用者可以瀏覽一家餐廳的詳細資訊
+   3. 使用者可以瀏覽全部所有餐廳
+   4. 使用者可以修改一家餐廳的資訊
+   5. 使用者可以刪除一家餐廳
+2. 建立資料庫，並設定 Express 專案與資料庫的連線
+3. 把這支 [restaurant.json](https://drive.google.com/file/d/1W-BD9-c8zJRYCwAD8yhqQdLwcUdN8GZi/view) 裡的資料當成種子資料，完成後新增 `npm run seed` 腳本
+4. 首頁 index 頁面需與題幹指定的 wireframe 一致
+5. 其他頁面請參考上個章節的樣板，可自行發揮創意，優化使用體驗 (例如：點擊餐廳照片可直接進入 show page、或是在執行刪除前會瀏覽器會跳出提醒視窗等)
 
 若順利完成指定規格，代表你能夠做到：
 
-- 能夠跟資料庫 (MongoDB) 建立連線
-- 能夠成功導入種子資料
 - 能完成 CRUD 功能與路由設計
+- 建立 Express & MongoDB 的連線
+- 導入種子資料
 - 透過 body-parser 從 POST 方法的路由中取得表單資料
 - 根據指定的設計稿完成畫面
 
@@ -29,16 +36,6 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>開發框架應用</td>
-      <td>
-        <ul>
-          <li>完成 CRUD 功能與路由設計</li>
-          <li>建立 Express & MongoDB 的連線</li>
-          <li>導入種子資料</li>
-        </ul>
-      </td>
-    </tr>
     <tr>
       <td>程式架構與品質</td>
       <td>
@@ -87,11 +84,6 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>開發框架應用</td>
-      <td>
-      </td>
-    </tr>
     <tr>
       <td>程式架構與品質</td>
       <td>期待同學開始意識到，程式開發不只是能夠運行功能，且包含異常處理、功能可擴充、可維護性思維，以利後續具備規劃功能、優化功能、有品質交付等能力，可能優化方向包括：
