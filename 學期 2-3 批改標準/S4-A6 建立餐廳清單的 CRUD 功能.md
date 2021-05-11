@@ -23,7 +23,7 @@
 
 <table>
   <thead style="font-weight: bold; border-bottom: 2px solid #999;">
-    <tr style="font-weight: bold;>
+    <tr style="font-weight: bold;">
       <td>觀察角度</td>
       <td>現階段期待你做到⋯⋯</td>
     </tr>
@@ -81,7 +81,7 @@
 
 <table>
   <thead style="font-weight: bold; border-bottom: 2px solid #999;">
-    <tr style="font-weight: bold;>
+    <tr style="font-weight: bold;">
       <td>觀察角度</td>
       <td>參考優化方向</td>
     </tr>
