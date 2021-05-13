@@ -1,6 +1,11 @@
 # A6 餐廳清單擴充 CRUD 功能
 
-> 💡  在寫這份作業之前，請你務必充分瞭解 <a href="https://github.com/ALPHACamp/web-grading-rubic" target="_blank">ALPHA Camp 作業回饋機制</a>，瞭解成果如何被審查，才能主動攻略
+## 💡 瞭解 AC 作業回饋機制
+
+在寫這份作業之前，請你務必充分瞭解 <a href="https://github.com/ALPHACamp/web-grading-rubic" target="_blank">ALPHA Camp 作業回饋機制</a>，瞭解成果如何被審查，才能主動攻略
+
+- `Meet Expectations` 條件：(1) 充分滿足【產品/程式規格與功能】(2)【驗收重點】無重大問題
+- `Try Harder`：代表學生需要停下來釐清問題，修正完成後，可 tag 助教重新判定
 
 ## 作業題目
 
@@ -94,16 +99,7 @@
   </tbody>
 </table>
 
-助教判斷 `Meet Expectations` 的條件：
-
-- 滿足【產品/程式規格與功能】(缺一不可)
-- 【驗收重點】無重大問題
-
-獲得 `Meet Expectations` 代表學生已掌握本階段的學習成果，可繼續前進。
-
-獲得 `Try Harder` 代表學生需要停下來釐清問題，修正完成後，可 tag 助教重新判定。
-
-### 行有餘力：優化品質、擴充規格
+## 行有餘力：優化品質、擴充規格
 
 下表蒐集了本作業可能延伸的優化方向，主要蒐集自曾獲 `Exceed expectations` 的作品，若你行有餘力、想挑戰自己，可從下表尋找靈感，若你有不同的想法，也歡迎你貢獻新的優化方法。
 

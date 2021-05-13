@@ -1,6 +1,11 @@
 # A13 Middleware 實作練習
 
-> 💡  在寫這份作業之前，請你務必充分瞭解 <a href="https://github.com/ALPHACamp/web-grading-rubic" target="_blank">ALPHA Camp 作業回饋機制</a>，瞭解成果如何被審查，才能主動攻略
+## 💡 瞭解 AC 作業回饋機制
+
+在寫這份作業之前，請你務必充分瞭解 <a href="https://github.com/ALPHACamp/web-grading-rubic" target="_blank">ALPHA Camp 作業回饋機制</a>，瞭解成果如何被審查，才能主動攻略
+
+- `Meet Expectations` 條件：(1) 充分滿足【產品/程式規格與功能】(2)【驗收重點】無重大問題
+- `Try Harder`：代表學生需要停下來釐清問題，修正完成後，可 tag 助教重新判定
 
 ## 作業題目
 
@@ -143,15 +148,6 @@ Q1 與 Q2 為系列題，寫完 Q1 後建議直接前往 Q2
     </tr>
   </tbody>
 </table>
-
-助教判斷 `Meet Expectations` 的條件：
-
-- 滿足【產品/程式規格與功能】(缺一不可)
-- 【驗收重點】無重大問題
-
-獲得 `Meet Expectations` 代表學生已掌握本階段的學習成果，可繼續前進。
-
-獲得 `Try Harder` 代表學生需要停下來釐清問題，修正完成後，可 tag 助教重新判定。
 
 ## 行有餘力：優化品質、擴充規格
 
