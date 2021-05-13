@@ -1,7 +1,7 @@
 # 【選修】技術驗收題組——Integer to Roman
 
 ### 題幹
-請參考課程平台([連結](https://lighthouse.alphacamp.co/courses/40/assignments/1236))。
+參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/40/assignments/1236))。
 
 ### 驗收能力
 * 針對題目，設計演算法，再運用 JavaScript 實作出演算法

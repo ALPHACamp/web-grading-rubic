@@ -1,7 +1,7 @@
 # 【選修】技術驗收題組——RGB to Hex Converter
 
 ### 題幹
-請參考課程平台([連結](https://lighthouse.alphacamp.co/courses/40/assignments/1236))。
+參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/40/assignments/1236))。
 
 ### 驗收能力
 * 拆解「使用者體驗」的流程，設計程式機制

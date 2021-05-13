@@ -1,7 +1,7 @@
 # 回顧 Search Bar 實作細節——用 filter 篩選陣列
 
 ### 題幹
-請參考課程平台([連結](https://lighthouse.alphacamp.co/courses/41/assignments/1010))。
+參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/41/assignments/1010))。
 
 ### 驗收能力
 * 運用 filter 篩選陣列內容，因而不更動到原始資料

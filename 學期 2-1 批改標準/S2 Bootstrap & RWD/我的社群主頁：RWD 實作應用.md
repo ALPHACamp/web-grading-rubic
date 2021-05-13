@@ -1,7 +1,7 @@
 # 我的履歷：RWD 實作應用
 
 ### 題幹
-請參考課程平台([連結](https://lighthouse.alphacamp.co/courses/40/assignments/945))。
+參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/40/assignments/945))。
 
 ### 驗收能力
 * 根據 RWD 設計來設置 CSS，在 viewport 大小變化時，讓網頁元素跟著流動
