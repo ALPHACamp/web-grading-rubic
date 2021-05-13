@@ -1,11 +1,16 @@
 # A6 餐廳清單擴充 CRUD 功能
 
-> 💡  在寫這份作業之前，請你務必了解 <a href="https://github.com/ALPHACamp/web-grading-rubic" target="_blank">ALPHA Camp 作業回饋機制</a>，包括助教會如何批改你的作業，以及你該怎麼使用助教回饋來幫助自己進步
+> 💡  在寫這份作業之前，請你務必充分瞭解 <a href="https://github.com/ALPHACamp/web-grading-rubic" target="_blank">ALPHA Camp 作業回饋機制</a>，瞭解成果如何被審查，才能主動攻略
 
-## 題幹
-參考課程平台([連結](https://lighthouse.alphacamp.co/courses/42/assignments/1038))。
+## 作業題目
 
-## 指定規格與功能
+參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/42/assignments/1038))。
+
+## 批改標準
+
+> 💡  請優先完成【產品/程式規格與功能】，接著運用【驗收重點】列表檢查。
+
+### 產品/程式規格與功能
 
 1. 以 To-do List 為範例，打造以下功能
    1. 使用者可以新增一家餐廳
@@ -16,76 +21,112 @@
 2. 建立資料庫，並設定 Express 專案與資料庫的連線
 3. 把這支 [restaurant.json](https://drive.google.com/file/d/1W-BD9-c8zJRYCwAD8yhqQdLwcUdN8GZi/view) 裡的資料當成種子資料，完成後新增 `npm run seed` 腳本
 4. 首頁 index 頁面需與題幹指定的 wireframe 一致
-5. 其他頁面請參考上個章節的樣板，可自行發揮創意，優化使用體驗 (例如：點擊餐廳照片可直接進入 show page、或是在執行刪除前會瀏覽器會跳出提醒視窗等)
+5. 其他頁面請參考上一份作業的 [index page](https://codepen.io/alpha-camp/pen/yrLbrZ) 與 [show page](https://codepen.io/alpha-camp/pen/JVjNgG)，可自行發揮創意，優化使用體驗
 
-若順利完成指定規格，代表你能夠做到：
+### 驗收重點
 
-- 能完成 CRUD 功能與路由設計
-- 建立 Express & MongoDB 的連線
-- 導入種子資料
-- 透過 body-parser 從 POST 方法的路由中取得表單資料
-- 根據指定的設計稿完成畫面
-
-## 期待你現階段能做到....
+下表綜合考量了「實務上該如何做」以及「你目前學會什麼」，需要透過助教分享他從你的作業的觀察，才能幫助我們了解哪些行為已經達到水準、繼續保持，反之，也可能會有需要改善的問題。
 
 <table>
-  <thead style="font-weight: bold; border-bottom: 2px solid #999;">
+  <thead>
     <tr>
-      <th>觀察角度</td>
+      <th>驗收重點</td>
       <th>現階段期待你做到⋯⋯</td>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>程式架構與品質</td>
+      <td>開發框架/函式庫</td>
       <td>
         <ul>
-          <li>遵守 JavaScript Standard style (建議安裝自動檢查套件)</li>
-          <li>有意義的變數與函式命名</li>
+          <li>用 Express 建立一個簡單的網路應用程式，包括：
+            <ul>
+              <li>能完成 CRUD 功能與路由設計</li>
+              <li>建立 Express & MongoDB 的連線</li>
+              <li>建立 seeder 檔案，載入種子資料</li>
+              <li>透過 body-parser 從 POST 方法的路由中取得表單資料</li>
+            </ul>
+          <li>正確運用框架/函式庫提供的 API，並遵從使用慣例</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>程式邏輯與 Coding Style</td>
+      <td>
+        <ul>
+          <li>新增/編輯資料時，需要檢查表單類型正確，以及資料是否滿足必填欄位 (至少要在前端檢查)</li>  
+          <li>程式邏輯是否清晰</li>
+          <li>使用 let & const 宣告變數 (不要使用 var)</li>
+          <li>變數資料型態保持前後一致</li>
+          <li>命名是否有意義、可讀性</li>
+          <li>盡量避免多餘的程式碼</li>
+          <li>遵守 JavaScript Standard style (建議安裝<a href="https://standardjs.com/index.html#install" target="_blank">自動檢查套件</a>)</li>
         </ul>
       </td>
     </tr>
       <tr>
-      <td>視覺與動線</td>
+      <td>視覺與使用者動線</td>
       <td>
         <ul>
-          <li>根據指定的設計稿完成畫面</li>
+          <li>必要元件長相、相對位置大致與 wireframe 一致</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>資料庫</td>
+      <td>
+        <ul>
+          <li>設計資料欄位時，選擇正確的資料型態</li>
+          <li>欄位命名適當</li>
         </ul>
       </td>
     </tr>
       <tr>
-      <td>開發實務 & 第三方工具應用</td>
+      <td>軟體開發工具 & 流程</td>
       <td>
         <ul>
           <li>建立粒度適當的 git commit 與清楚簡潔的 commit message</li>
           <li>撰寫清楚明瞭的 README</li>
+          <li>需要時，加上有意義的註解</li>
         </ul>
       </td>
     </tr>
   </tbody>
 </table>
 
+助教判斷 `Meet Expectations` 的條件：
 
-若你的作業「指定規格」都完成，「期待結果」也沒有重大問題，助教會判定 `Meet Expectation`，代表你已經掌握了此階段的學習內容，可以繼續前進。
+- 滿足【產品/程式規格與功能】(缺一不可)
+- 【驗收重點】無重大問題
 
-若助教發現你「沒有做到產品該有的規格」或是「犯了重大錯誤」，會給你 `Try Harder` 標記，提醒你停下來釐清問題。修正完成後，可以 tag 助教重新判定。
+獲得 `Meet Expectations` 代表學生已掌握本階段的學習成果，可繼續前進。
 
----
-## 行有餘力，可參考優化方向
-以下我們蒐集了過去學長姐在行有餘力時，會自行延伸學習的方向，並不是每個人現階段都需要攻略這些項目。
+獲得 `Try Harder` 代表學生需要停下來釐清問題，修正完成後，可 tag 助教重新判定。
 
-行有餘力時，你可以從下方挑選一些有共鳴的項目來優化作業，也歡迎你接續發想新的優化項目。不過請別忘記先守住上述的基本盤再來挑戰唷！
+## 行有餘力：優化品質、擴充規格
+
+下表蒐集了本作業可能延伸的優化方向，主要蒐集自曾獲 `Exceed expectations` 的作品，若你行有餘力、想挑戰自己，可從下表尋找靈感，若你有不同的想法，也歡迎你貢獻新的優化方法。
+
+注意，並非每位同學都需要攻略這些項目，請你先完成基本規格，行有餘力時再來挑戰。
 
 <table>
-  <thead style="font-weight: bold; border-bottom: 2px solid #999;">
-    <tr style="font-weight: bold;">
-      <th>觀察角度</td>
-      <th>參考優化方向</td>
+  <thead>
+    <tr>
+      <th>優化方向</td>
+      <th>可能作法</td>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>程式架構與品質</td>
+      <td>擴充規格</td>
+      <td>(略)</td>
+    </tr>
+    <tr>
+      <td>開發框架/函式庫</td>
+      <td>(略)</td>
+    </tr>
+    <tr>
+      <td>程式邏輯與 Coding Style</td>
       <td>期待同學開始意識到，程式開發不只是能夠運行功能，且包含異常處理、功能可擴充、可維護性思維，以利後續具備規劃功能、優化功能、有品質交付等能力，可能優化方向包括：
         <ul>
           <li>寫出更加簡潔明瞭程式碼，e.g. 運用解構賦值、三元運算等技巧</li>
@@ -95,21 +136,28 @@
       </td>
     </tr>
       <tr>
-      <td>視覺與動線</td>
+      <td>視覺與使用者動線</td>
       <td>
         <ul>
-          <li>響應式網頁、表單資料驗證、搜尋資料為空處理、自刻網頁</li>
+          <li>點擊餐廳照片可直接進入 show page</li>
+          <li>執行刪除前會瀏覽器會跳出提醒視窗<li>
+          <li>響應式網頁</li>
+          <li>表單資料驗證</li>
+          <li>「搜尋資料為空」的例外處理</li>
         </ul>
       </td>
     </tr>
+    <tr>
+      <td>資料庫</td>
+      <td>(略)</td>
+    </tr>
       <tr>
-      <td>開發實務 & 第三方工具應用</td>
-      <td>
-        <ul>
-          <li>建立粒度適當的 git commit 與清楚簡潔的 commit message</li>
-          <li>撰寫清楚明瞭的 README</li>
-        </ul>
-      </td>
+      <td>軟體開發工具 & 流程</td>
+      <td>(略)</td>
     </tr>
   </tbody>
 </table>
+
+## 歡迎回饋
+
+若有任何意見，歡迎透過 issue 或 pull requests 功能給予意見。
