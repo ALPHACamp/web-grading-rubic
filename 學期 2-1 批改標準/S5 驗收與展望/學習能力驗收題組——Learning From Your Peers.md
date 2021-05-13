@@ -1,7 +1,7 @@
 # 學習能力驗收題組——Learning From Your Peers
 
 ### 題幹
-請參考課程平台([連結](https://lighthouse.alphacamp.co/courses/40/assignments/1238))。
+參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/40/assignments/1238))。
 
 ### 驗收能力
 * 看懂他人的程式碼，並且用自己的話覆述一次

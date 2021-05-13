@@ -1,7 +1,7 @@
 # Adele 的歌詞本
 
 ### 題幹
-請參考課程平台([連結](https://lighthouse.alphacamp.co/courses/41/assignments/1006))。
+參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/41/assignments/1006))。
 
 ### 驗收能力
 * 綜合運用以下能力，做出有意義的網頁：

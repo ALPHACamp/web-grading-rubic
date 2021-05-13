@@ -3,7 +3,7 @@
 > 💡  在寫這份作業之前，請你務必了解 <a href="https://github.com/ALPHACamp/web-grading-rubic" target="_blank">ALPHA Camp 作業回饋機制</a>，包括助教會如何批改你的作業，以及你該怎麼使用助教回饋來幫助自己進步
 
 ### 題幹
-請參考課程平台([連結](https://lighthouse.alphacamp.co/courses/42/assignments/1145))。
+參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/42/assignments/1145))。
 ## 指定規格與功能
 
 - 詳見 lighthouse 作業說明

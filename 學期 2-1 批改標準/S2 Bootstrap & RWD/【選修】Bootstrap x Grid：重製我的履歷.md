@@ -1,7 +1,7 @@
 # 【選修】Bootstrap x Grid：重製我的履歷
 
 ### 題幹
-請參考課程平台([連結](https://lighthouse.alphacamp.co/courses/40/assignments/948))。
+參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/40/assignments/948))。
 
 ### 驗收能力
 * 運用 Bootstrap Grid 來實現 RWD流動

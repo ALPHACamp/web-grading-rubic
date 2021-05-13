@@ -1,7 +1,7 @@
 # TodoList 體驗強化版
 
 ### 題幹
-請參考課程平台([連結](https://lighthouse.alphacamp.co/courses/41/assignments/1257))。
+參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/41/assignments/1257))。
 
 ### 驗收能力
 * 綜合練習以下技巧：

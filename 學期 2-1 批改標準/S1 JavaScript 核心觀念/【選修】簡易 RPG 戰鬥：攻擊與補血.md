@@ -1,7 +1,7 @@
 # 【選修】簡易 RPG 戰鬥：攻擊與補
 
 ### 題幹
-請參考課程平台([連結](https://lighthouse.alphacamp.co/courses/40/assignments/941))。
+參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/40/assignments/941))。
 
 ### 驗收能力
 * 物件 x 函式：簡易的模組化

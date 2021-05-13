@@ -1,7 +1,7 @@
 # My Favorite Movies：按讚與刪除
 
 ### 題幹
-請參考課程平台([連結](https://lighthouse.alphacamp.co/courses/40/assignments/955))。
+參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/40/assignments/955))。
 
 ### 驗收能力
 * 使用 event listener 綁定滑鼠事件
