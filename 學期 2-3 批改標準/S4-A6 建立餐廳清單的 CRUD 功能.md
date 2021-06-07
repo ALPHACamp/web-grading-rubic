@@ -24,9 +24,9 @@
    4. 使用者可以修改一家餐廳的資訊
    5. 使用者可以刪除一家餐廳
 2. 建立資料庫，並設定 Express 專案與資料庫的連線
-3. 把這支 [restaurant.json](https://drive.google.com/file/d/1W-BD9-c8zJRYCwAD8yhqQdLwcUdN8GZi/view) 裡的資料當成種子資料，完成後新增 `npm run seed` 腳本
+3. 把這支 [restaurant.json](https://drive.google.com/file/d/1W-BD9-c8zJRYCwAD8yhqQdLwcUdN8GZi/view) 裡的資料當成種子資料，也就是說，資料需要用 `require('路徑/restaurant.json')` 的方式引入程式。完成後需新增 `npm run seed` 腳本。
 4. 首頁 index 頁面需與題幹指定的 wireframe 一致
-5. 其他頁面請參考上一份作業的 [index page](https://codepen.io/alpha-camp/pen/yrLbrZ) 與 [show page](https://codepen.io/alpha-camp/pen/JVjNgG)，可自行發揮創意，優化使用體驗
+5. 其他頁面請參考上一份作業的 [index page](https://codepen.io/alpha-camp/pen/yrLbrZ) 與 [show page](https://codepen.io/alpha-camp/pen/JVjNgG)，可自行優化使用者體驗。
 
 ### 驗收重點
 
