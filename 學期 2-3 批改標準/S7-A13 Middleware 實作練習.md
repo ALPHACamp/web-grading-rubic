@@ -173,7 +173,12 @@ Q1 與 Q2 為系列題，寫完 Q1 後建議直接前往 Q2
     </tr>
     <tr>
       <td>程式邏輯與 Coding Style</td>
-      <td>(略)</td>
+      <td>
+          <ul>
+          <li>顯示時間日期格式：可考慮用 Date 現成的方法。</li>
+          <li>未滿十位數補零的方式：可考慮用 String 現成的方法，讓程式碼更精簡。提示可以到 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#" target="_blank">MDN<> 找找看。</li>
+        </ul>
+      </td>
     </tr>
       <tr>
       <td>視覺與使用者動線</td>
