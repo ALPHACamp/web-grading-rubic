@@ -1,4 +1,4 @@
-# A8 回顧 Search Bar 實作細節
+# A8 回顧 Search Bar 實作細節 (Q2: 用 filter 篩選陣列)
 
 ## 💡 瞭解 AC 作業回饋機制
 
@@ -17,7 +17,11 @@
 
 ### 產品/程式規格與功能
 
-1. 
+1. 運用指定 [CodePen](https://codepen.io/alpha-camp/pen/KKPBVBQ?editors=1010)：
+1. 必須要應用 `filter`
+2. 最後要呼叫 `renderComments` 函式來輸出畫面
+3. 且不能改變原始資料 `comments`。
+
 ### 驗收重點
 
 下表綜合考量了「實務上該如何做」以及「你目前學會什麼」，需要透過助教分享他從你的作業的觀察，才能幫助我們了解哪些行為已經達到水準、繼續保持，反之，也可能會有需要改善的問題。
@@ -32,67 +36,30 @@
   <tbody>
     <tr>
       <td>開發框架/函式庫</td>
-      <td></td>
+      <td>(略)</td>
     </tr>
     <tr>
       <td>程式邏輯與 Coding Style</td>
-      <td></td>
+      <td>運用 filter 篩選陣列內容，因而不更動到原始資料</td>
     </tr>
       <tr>
       <td>視覺與使用者動線</td>
-      <td></td>
+      <td>(略)</td>
     </tr>
     <tr>
       <td>資料庫</td>
-      <td></td>
+      <td>(略)</td>
     </tr>
       <tr>
       <td>軟體開發工具 & 流程</td>
-      <td></td>
+      <td>(略)</td>
     </tr>
   </tbody>
 </table>
 
 ## 行有餘力：優化品質、擴充規格
 
-下表蒐集了本作業可能延伸的優化方向，主要蒐集自曾獲 `Exceed expectations` 的作品，若你行有餘力、想挑戰自己，可從下表尋找靈感，若你有不同的想法，也歡迎你貢獻新的優化方法。
-
-注意，並非每位同學都需要攻略這些項目，請你先完成基本規格，行有餘力時再來挑戰。
-
-<table>
-  <thead>
-    <tr>
-      <th>優化方向</td>
-      <th>可能作法</td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>擴充規格</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>開發框架/函式庫</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>程式邏輯與 Coding Style</td>
-      <td></td>
-    </tr>
-      <tr>
-      <td>視覺與使用者動線</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>資料庫</td>
-      <td></td>
-    </tr>
-      <tr>
-      <td>軟體開發工具 & 流程</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+（略）
 
 ## 歡迎回饋
 
