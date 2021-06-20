@@ -53,6 +53,7 @@
           <li>使用 let & const 宣告變數 (不要使用 var)</li>
           <li>變數資料型態保持前後一致</li>
           <li>命名是否有意義、可讀性</li>
+          <li>適當運用註解幫助他人快速理解程式碼</li>
           <li>盡量避免多餘的程式碼</li>
           <li>遵守 JavaScript Standard style (建議安裝<a href="https://standardjs.com/index.html#install" target="_blank">自動檢查套件</a>)</li>
         </ul>
@@ -123,6 +124,7 @@ Q1 與 Q2 為系列題，寫完 Q1 後建議直接前往 Q2
           <li>使用 let & const 宣告變數 (不要使用 var)</li>
           <li>變數資料型態保持前後一致</li>
           <li>命名是否有意義、可讀性</li>
+          <li>適當運用註解幫助他人快速理解程式碼</li>
           <li>盡量避免多餘的程式碼</li>
           <li>遵守 JavaScript Standard style (建議安裝<a href="https://standardjs.com/index.html#install" target="_blank">自動檢查套件</a>)</li>
         </ul>
