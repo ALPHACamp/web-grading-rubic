@@ -11,13 +11,23 @@
 
 參考課程平台 (<a href="https://lighthouse.alphacamp.co/courses/40/assignments/955" target="_blank">原文連結</a>)
 
+##### Logs
+
+- 2021.6.21 移除題幹描述「不需要特意排除評分為負分的狀況」，納入必要規格
+
 ## 批改標準
 
 > 💡  請優先完成【產品/程式規格與功能】，接著運用【驗收重點】列表檢查。
 
 ### 產品/程式規格與功能
 
-1. 
+1. 延續[運用 Template Literal 渲染動態網頁單元](https://lighthouse.alphacamp.co/courses/40/units/5682) 中的專案程式碼
+2. 新增兩個功能：
+   1. 可以點擊圖示來改變評分
+   2. 可以刪除電影
+3. 實作中需要使用「事件委派」
+4. 在 Rating 中評分下降成 0 以後，繼續點繫不應該出現負分
+
 ### 驗收重點
 
 下表綜合考量了「實務上該如何做」以及「你目前學會什麼」，需要透過助教分享他從你的作業的觀察，才能幫助我們了解哪些行為已經達到水準、繼續保持，反之，也可能會有需要改善的問題。
@@ -32,23 +42,48 @@
   <tbody>
     <tr>
       <td>開發框架/函式庫</td>
-      <td></td>
+      <td>(略)</td>
     </tr>
     <tr>
       <td>程式邏輯與 Coding Style</td>
-      <td></td>
+      <td>
+        <ul>
+          <li>熟悉 DOM 的事件處理基本方法：</li>
+          <ul>
+            <li>使用 event listener 綁定滑鼠事件</li>
+            <li>運用 event target 裡的資訊，分開處理加分/扣分的情況 (event delegation)</li>
+            <li>刪除按鈕：事件驅動刪除 DOM 節點</li>
+            <li>使用迴圈或是 template literal 呈現題目要求的畫面</li>
+          </ul>
+          <li>重覆練習重要的 DOM 操作觀念或技巧：</li>
+          <ul>
+            <li>使用迴圈或是 template literal 呈現題目要求的畫面</li>
+            <li>應注意到從 DOM 元素中取出的值是 string，需轉為 Number 再做進一步運算)</li>
+          </ul>
+          <li>其他</li>
+          <ul>
+            <li>程式邏輯是否清晰</li>
+            <li>使用 let & const 宣告變數 (不要使用 var)</li>
+            <li>變數資料型態保持前後一致</li>
+            <li>命名是否有意義、可讀性</li>
+            <li>適當運用註解幫助他人快速理解程式碼</li>
+            <li>盡量避免多餘的程式碼</li>
+            <li>遵守 JavaScript Standard style (建議安裝<a href="https://standardjs.com/index.html#install" target="_blank">自動檢查套件</a>)</li>
+          </ul>
+        </ul>
+      </td>
     </tr>
       <tr>
       <td>視覺與使用者動線</td>
-      <td></td>
+      <td>必要元件長相、相對位置大致與指定設計稿相同</td>
     </tr>
     <tr>
       <td>資料庫</td>
-      <td></td>
+      <td>(略)</td>
     </tr>
       <tr>
       <td>軟體開發工具 & 流程</td>
-      <td></td>
+      <td>(略)</td>
     </tr>
   </tbody>
 </table>
@@ -69,27 +104,27 @@
   <tbody>
     <tr>
       <td>擴充規格</td>
-      <td></td>
+      <td>(略)</td>
     </tr>
     <tr>
       <td>開發框架/函式庫</td>
-      <td></td>
+      <td>(略)</td>
     </tr>
     <tr>
       <td>程式邏輯與 Coding Style</td>
-      <td></td>
+      <td>(略)</td>
     </tr>
       <tr>
       <td>視覺與使用者動線</td>
-      <td></td>
+      <td>(略)</td>
     </tr>
     <tr>
       <td>資料庫</td>
-      <td></td>
+      <td>(略)</td>
     </tr>
       <tr>
       <td>軟體開發工具 & 流程</td>
-      <td></td>
+      <td>(略)</td>
     </tr>
   </tbody>
 </table>

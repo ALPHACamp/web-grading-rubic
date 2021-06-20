@@ -11,13 +11,21 @@
 
 參考課程平台 (<a href="https://lighthouse.alphacamp.co/courses/40/assignments/948" target="_blank">原文連結</a>)
 
+##### Logs
+
+- 2021.6.21 由於系列題目 A11 改版，此題會變成使用指定設計稿，而不是同學自由設計
+
 ## 批改標準
 
 > 💡  請優先完成【產品/程式規格與功能】，接著運用【驗收重點】列表檢查。
 
 ### 產品/程式規格與功能
 
-1. 
+1. 使用 Bootstrap Grid 架構來實作 RWD
+2. 畫面需符合指定設計稿（見題目說明），共有三種尺寸的畫面要檢查
+3. media query 的斷點設置需要符合 mobile first 原則 - 在 CSS 文件，由上而下的順序先是小螢幕，然後再由小到大加入 media query 來控制兩個斷點：576px, 1200px
+4. 請用「註解」的方式來關掉原本的 flexbox 設定
+
 ### 驗收重點
 
 下表綜合考量了「實務上該如何做」以及「你目前學會什麼」，需要透過助教分享他從你的作業的觀察，才能幫助我們了解哪些行為已經達到水準、繼續保持，反之，也可能會有需要改善的問題。
@@ -32,23 +40,33 @@
   <tbody>
     <tr>
       <td>開發框架/函式庫</td>
-      <td></td>
+      <td>(略)</td>
     </tr>
     <tr>
       <td>程式邏輯與 Coding Style</td>
-      <td></td>
+      <td>
+        <ul>
+          <li>按照 CSS 可一層層覆蓋的特性，盡量考慮「必要的設定」(在引入 Bootstrap 樣式時，也應該思考一樣的問題)</li>
+          <li>能根據 Grid 需要來設計 HTML 架構（從 Flexbox 改裝成 Grid 架構時，知道什麼需要刪掉、什麼地方需要新增架構）</li>
+        </ul>
+      </td>
     </tr>
       <tr>
       <td>視覺與使用者動線</td>
-      <td></td>
+      <td>
+      <ul>
+        <li>必要元件長相、相對位置大致與指定設計稿相同</li>
+        <li>實現三種尺寸的網頁</li>
+      </ul>
+      </td>
     </tr>
     <tr>
       <td>資料庫</td>
-      <td></td>
+      <td>(略)</td>
     </tr>
       <tr>
       <td>軟體開發工具 & 流程</td>
-      <td></td>
+      <td>(略)</td>
     </tr>
   </tbody>
 </table>
@@ -69,27 +87,32 @@
   <tbody>
     <tr>
       <td>擴充規格</td>
-      <td></td>
+      <td>(略)</td>
     </tr>
     <tr>
       <td>開發框架/函式庫</td>
-      <td></td>
+      <td>(略)</td>
     </tr>
     <tr>
       <td>程式邏輯與 Coding Style</td>
-      <td></td>
+      <td>
+        <ul>
+          <li>充分運用了 CSS 的覆蓋特性，避免重覆或不必要的 CSS 設定，讓人覺得這份 HTML ＋ CSS 文件精簡、沒有多餘</li>
+          <li>可考慮用相對單位 rem 來取代絕對單位 px</li>
+        </ul>
+      </td>
     </tr>
       <tr>
       <td>視覺與使用者動線</td>
-      <td></td>
+      <td>(略)</td>
     </tr>
     <tr>
       <td>資料庫</td>
-      <td></td>
+      <td>(略)</td>
     </tr>
       <tr>
       <td>軟體開發工具 & 流程</td>
-      <td></td>
+      <td>(略)</td>
     </tr>
   </tbody>
 </table>
