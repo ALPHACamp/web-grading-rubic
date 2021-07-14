@@ -72,7 +72,7 @@
   <tbody>
     <tr>
       <td>擴充規格</td>
-      <td>(略)</td>
+      <td>除了題目的需求是過濾單一資料 badCommentId 之外，能夠思考額外的可能性，如：當 badCommentId 為多筆資料時，應該要如何處理</td>
     </tr>
     <tr>
       <td>開發框架/函式庫</td>
