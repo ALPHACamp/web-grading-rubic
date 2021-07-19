@@ -20,9 +20,9 @@
 1. 運用指定 [CodePen](https://codepen.io/alpha-camp/pen/exQRyQ) 來實作
    1. 已有載入 axios 和 Boostrap 4 様板（注意版本）
    2. 只需要撰寫 JavaScript，不需要更動任何 HTML 和 CSS
-2. 點擊左欄的歌曲名稱時，就會發送請求給 lyrics.ovh，並且將回傳的歌曲顯示在右欄
+2. 點擊左欄的歌曲名稱時，就會發送請求給 lyric-api-403c0.firebaseio.com，並且將回傳的歌曲顯示在右欄
    1. 左欄的曲目由 `album` 物件動態產生
-   2. 右欄的歌詞內容需來自 lyrics.ovh 提供的 API，並使用 axios 發送請求
+   2. 右欄的歌詞內容需來自 lyric-api-403c0.firebaseio.com 提供的 API，並使用 axios 發送請求
 3. 參考 Bootstrap 的 [pill](https://getbootstrap.com/docs/4.0/components/navs/) 使用方式
 4. 使用 pre 標籤製作歌詞換行效果
 
