@@ -1,4 +1,4 @@
-# A24: 學習能力驗收題組 - Q1: Learning From Your Peers
+# 學習能力驗收題組 - Q1: Learning From Your Peers
 
 ## 💡 瞭解 AC 作業回饋機制
 
