@@ -1,4 +1,4 @@
-# 老爸的私房錢
+# 餐廳清單擴充 CRUD 功能
 
 ## 💡 瞭解 AC 作業回饋機制
 
@@ -9,11 +9,10 @@
 
 ## 作業題目
 
-參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/42/assignments/1045))。
+此作業為前後端共用作業，題程平台原文連結如下：
 
-##### Logs
-
-- 2021.6.21 有鑑於大多學生在本階段資料庫觀念剛剛入門，特別強化本題在設定 Record & Category model 的相關說明，包括引導同學現階段先運用 JavaScript 進行跨資料表的查詢，加入圖解與舉例
+- 2-3 前端[原文連結]()
+- 2-3 後端[原文連結]()
 
 ## 批改標準
 
@@ -21,21 +20,16 @@
 
 ### 產品/程式規格與功能
 
-1. 使用者 (老爸) 可以：
-   1. 在首頁一次瀏覽所有支出的清單
-   2. 在首頁看到所有支出清單的總金額
-   3. 新增一筆支出
-   4. 編輯支出的所有屬性 (一次只能編輯一筆)
-   5. 刪除任何一筆支出 (一次只能刪除一筆)
-   6. 在首頁可以根據支出「類別」篩選支出；總金額的計算只會包括被篩選出來的支出總和。
-2. 使用指定的設計稿 (見題目說明)
-3. 按指定規格設計資料結構（見題目說明，有 Record & Category 兩個 model)
-4. 提供 Heroku 的專案網址
-5. 各種程式規格請仔細參閱題目說明，尤其注意
-   1. 兩個種子資料檔案：categorySeeder.js 和 recordSeeder.js
-   2. 一定需要建立 seeder 與腳本，讓助教能方便地驗收你的 app
-   3. 需要設定 `npm dev seed` 腳本，可載入兩種種子資料
-   4. 透過 Record 來查找 Category 資料的方式
+1. 以 To-do List 為範例，打造以下功能
+   1. 使用者可以新增一家餐廳
+   2. 使用者可以瀏覽一家餐廳的詳細資訊
+   3. 使用者可以瀏覽全部所有餐廳
+   4. 使用者可以修改一家餐廳的資訊
+   5. 使用者可以刪除一家餐廳
+2. 建立資料庫，並設定 Express 專案與資料庫的連線
+3. 把這支 [restaurant.json](https://drive.google.com/file/d/1W-BD9-c8zJRYCwAD8yhqQdLwcUdN8GZi/view) 裡的資料當成種子資料，也就是說，資料需要用 `require('路徑/restaurant.json')` 的方式引入程式。完成後需新增 `npm run seed` 腳本。
+4. 首頁 index 頁面需與題幹指定的 wireframe 一致
+5. 其他頁面請參考上一份作業的 [index page](https://codepen.io/alpha-camp/pen/yrLbrZ) 與 [show page](https://codepen.io/alpha-camp/pen/JVjNgG)，可自行優化使用者體驗。
 
 ### 驗收重點
 
@@ -53,14 +47,12 @@
       <td>開發框架/函式庫</td>
       <td>
         <ul>
-          <li>實現課程中介紹的 Express 功能實作與 best practice，包括：
+          <li>用 Express 建立一個簡單的網路應用程式，包括：
             <ul>
-              <li>CRUD 功能</li>
+              <li>能完成 CRUD 功能與路由設計</li>
               <li>建立 Express & MongoDB 的連線</li>
-              <li>設定執行腳本</li>
               <li>建立 seeder 檔案，載入種子資料</li>
-              <li>利用 express.Router，打造符合 RESTful 設計的路由系統，將路由從 app.js 分離獨立</li>
-              <li>套用 Bootstrap</li>
+              <li>透過 body-parser 從 POST 方法的路由中取得表單資料</li>
             </ul>
           <li>正確運用框架/函式庫提供的 API，並遵從使用慣例</li>
         </ul>
@@ -70,11 +62,7 @@
       <td>程式邏輯與 Coding Style</td>
       <td>
         <ul>
-          <li>程式需有一定的可維護性
-            <ul>
-              <li>例如：未來想增加一個新的類別時，只需要在資料庫中 category 的 collection 底下新增一筆資料，不需要動到任何程式碼，前端顯示的資料也應該都來自於資料庫 (如果你用 hard code 方式就會讓可維護性變差)</li>
-            </ul>
-          <li>新增/編輯資料時，需要檢查表單類型正確，以及資料是否滿足必填欄位 (至少要在前端檢查)</li>
+          <li>新增/編輯資料時，需要檢查表單類型正確，以及資料是否滿足必填欄位 (至少要在前端檢查)</li>  
           <li>程式邏輯是否清晰</li>
           <li>使用 let & const 宣告變數 (不要使用 var)</li>
           <li>變數資料型態保持前後一致</li>
@@ -85,11 +73,11 @@
         </ul>
       </td>
     </tr>
-    <tr>
+      <tr>
       <td>視覺與使用者動線</td>
       <td>
         <ul>
-          <li>需以教案提供的 wireframe 為基礎，元件的數量、功能、元件之間的相對位置要和 wireframe 一致，而 style (顏色、邊距、留白、陰影等地方) 可行優化</li>
+          <li>在「打造餐廳清單」專案之上，依照給定的 wireframe 添加可進行 CRUD 的操作介面，元件的數量、功能、元件之間的相對位置要和 wireframe 一致，而 style (顏色、邊距、留白、陰影等地方) 可自行優化</li>
         </ul>
       </td>
     </tr>
@@ -99,9 +87,6 @@
         <ul>
           <li>設計資料欄位時，選擇正確的資料型態</li>
           <li>欄位命名適當</li>
-          <li>能夠設定「兩張資料表」</li>
-          <li>在專案初始化時，能成功載入兩筆種子資料</li>
-          <li>現階段不會直接運用 MongoDB 在資料庫層設定關聯，但期待學生在撈出 Category 資料後，直接在 Express 應用層運用 JavaScript 技巧撈出資料 (詳見題目說明)</li>
         </ul>
       </td>
     </tr>
@@ -138,25 +123,26 @@
     </tr>
     <tr>
       <td>開發框架/函式庫</td>
-      <td>
-         <ul>
-          <li>每支 router 有確實處理例外，可以參考 <a href="https://expressjs.com/zh-tw/guide/error-handling.html" target="_blank">Express 錯誤處理</a></li>
+      <td>(略)</td>
+    </tr>
+    <tr>
+      <td>程式邏輯與 Coding Style</td>
+      <td>期待同學開始意識到，程式開發不只是能夠運行功能，且包含異常處理、功能可擴充、可維護性思維，以利後續具備規劃功能、優化功能、有品質交付等能力，可能優化方向包括：
+        <ul>
+          <li>寫出更加簡潔明瞭程式碼，e.g. 運用解構賦值、三元運算等技巧</li>
+          <li>handlebars 自定義 helper</li>
+          <li>設計具有意義的路由架構 or 進階資料庫搜尋方法</li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td>程式邏輯與 Coding Style</td>
-      <td>
-         <ul>
-          <li>如果有重複使用的函式，則獨立並放在 tools 資料夾下</li>
-        </ul>
-      </td>
-    </tr>
-      <tr>
       <td>視覺與使用者動線</td>
       <td>
         <ul>
-          <li> (略) </li>
+          <li>點擊餐廳照片可直接進入 show page</li>
+          <li>執行刪除前會瀏覽器會跳出提醒視窗</li>
+          <li>響應式網頁</li>
+          <li>「搜尋資料為空」的例外處理</li>
         </ul>
       </td>
     </tr>
