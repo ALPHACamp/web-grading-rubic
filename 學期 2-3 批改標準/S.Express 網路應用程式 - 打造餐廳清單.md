@@ -11,8 +11,8 @@
 
 此作業為前後端共用作業，題程平台原文連結如下：
 
-- 2-3 前端[原文連結]()
-- 2-3 後端[原文連結]()
+- 2-3 前端([原文連結](https://lighthouse.alphacamp.co/courses/101/assignments/3043))
+- 2-3 後端([原文連結](https://lighthouse.alphacamp.co/courses/100/assignments/3015))
 
 ## 批改標準
 

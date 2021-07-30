@@ -9,7 +9,7 @@
 
 ## 作業題目
 
-參考課程平台 (<a href="https://lighthouse.alphacamp.co/courses/40/assignments/1238" target="_blank">原文連結</a>)
+參考課程平台 (<a href="https://lighthouse.alphacamp.co/courses/98/assignments/2983" target="_blank">原文連結</a>)
 
 ## 批改標準
 
