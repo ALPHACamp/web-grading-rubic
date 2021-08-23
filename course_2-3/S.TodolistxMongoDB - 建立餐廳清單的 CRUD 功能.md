@@ -1,35 +1,8 @@
 # 餐廳清單擴充 CRUD 功能
 
-## 💡 瞭解 AC 作業回饋機制
-
-在寫這份作業之前，請你務必充分瞭解 <a href="https://github.com/ALPHACamp/web-grading-rubic" target="_blank">ALPHA Camp 作業回饋機制</a>，瞭解成果如何被審查，才能主動攻略
-
-- `Meet Expectations` 條件：(1) 充分滿足【產品/程式規格與功能】(2)【驗收重點】無重大問題
-- `Try Harder`：代表學生需要停下來釐清問題，修正完成後，可 tag 助教重新判定
-
-## 作業題目
-
-此作業為前後端共用作業，題程平台原文連結如下：
-
-- 2-3 前端([原文連結](https://lighthouse.alphacamp.co/courses/101/assignments/3044))
-- 2-3 後端([原文連結](https://lighthouse.alphacamp.co/courses/100/assignments/3019))
-
 ## 批改標準
 
 > 💡  請優先完成【產品/程式規格與功能】，接著運用【驗收重點】列表檢查。
-
-### 產品/程式規格與功能
-
-1. 以 To-do List 為範例，打造以下功能
-   1. 使用者可以新增一家餐廳
-   2. 使用者可以瀏覽一家餐廳的詳細資訊
-   3. 使用者可以瀏覽全部所有餐廳
-   4. 使用者可以修改一家餐廳的資訊
-   5. 使用者可以刪除一家餐廳
-2. 建立資料庫，並設定 Express 專案與資料庫的連線
-3. 把這支 [restaurant.json](https://drive.google.com/file/d/1W-BD9-c8zJRYCwAD8yhqQdLwcUdN8GZi/view) 裡的資料當成種子資料，也就是說，資料需要用 `require('路徑/restaurant.json')` 的方式引入程式。完成後需新增 `npm run seed` 腳本。
-4. 首頁 index 頁面需與題幹指定的 wireframe 一致
-5. 其他頁面請參考上一份作業的 [index page](https://codepen.io/alpha-camp/pen/yrLbrZ) 與 [show page](https://codepen.io/alpha-camp/pen/JVjNgG)，可自行優化使用者體驗。
 
 ### 驗收重點
 
@@ -157,6 +130,6 @@
   </tbody>
 </table>
 
-## 歡迎回饋
+## 作業相關資訊
 
-若有任何意見，歡迎透過 issue 或 pull requests 功能給予意見。
+2-3 後端([原文連結](https://lighthouse.alphacamp.co/courses/100/assignments/3019))

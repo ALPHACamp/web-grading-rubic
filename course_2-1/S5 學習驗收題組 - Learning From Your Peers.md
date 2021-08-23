@@ -1,16 +1,5 @@
 # 學習能力驗收題組 - Q1: Learning From Your Peers
 
-## 💡 瞭解 AC 作業回饋機制
-
-在寫這份作業之前，請你務必充分瞭解 <a href="https://github.com/ALPHACamp/web-grading-rubic" target="_blank">ALPHA Camp 作業回饋機制</a>，瞭解成果如何被審查，才能主動攻略
-
-- `Meet Expectations` 條件：(1) 充分滿足【產品/程式規格與功能】(2)【驗收重點】無重大問題
-- `Try Harder`：代表學生需要停下來釐清問題，修正完成後，可 tag 助教重新判定
-
-## 作業題目
-
-參考課程平台 (<a href="https://lighthouse.alphacamp.co/courses/98/assignments/2983" target="_blank">原文連結</a>)
-
 ## 批改標準
 
 > 💡  請優先完成【產品/程式規格與功能】，接著運用【驗收重點】列表檢查。
@@ -79,3 +68,7 @@
 ## 行有餘力
 
 這題沒有特別的 Exceed expectations 設計。只要能正確按引導執行 peer review 即可，也不建議同學花太多的力氣，重點是未來在日常練習中，持續保持 peer review 的習慣，在觀摩他人作業中，持續獲得讓自己成長的養分。
+
+## 作業相關資訊
+
+參考課程平台 (<a href="https://lighthouse.alphacamp.co/courses/98/assignments/2983" target="_blank">原文連結</a>)
