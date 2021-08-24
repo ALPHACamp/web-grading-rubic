@@ -1,32 +1,9 @@
 # My Favorite Movies：按讚與刪除
 
-## 💡 瞭解 AC 作業回饋機制
-
-在寫這份作業之前，請你務必充分瞭解 <a href="https://github.com/ALPHACamp/web-grading-rubic" target="_blank">ALPHA Camp 作業回饋機制</a>，瞭解成果如何被審查，才能主動攻略
-
-- `Meet Expectations` 條件：(1) 充分滿足【產品/程式規格與功能】(2)【驗收重點】無重大問題
-- `Try Harder`：代表學生需要停下來釐清問題，修正完成後，可 tag 助教重新判定
-
-## 作業題目
-
-參考課程平台 (<a href="https://lighthouse.alphacamp.co/courses/98/assignments/2981" target="_blank">原文連結</a>)
-
-##### Logs
-
-- 2021.6.21 移除題幹描述「不需要特意排除評分為負分的狀況」，納入必要規格
 
 ## 批改標準
 
 > 💡  請優先完成【產品/程式規格與功能】，接著運用【驗收重點】列表檢查。
-
-### 產品/程式規格與功能
-
-1. 延續[運用 Template Literal 渲染動態網頁單元](https://lighthouse.alphacamp.co/courses/40/units/5682) 中的專案程式碼
-2. 新增兩個功能：
-   1. 可以點擊圖示來改變評分
-   2. 可以刪除電影
-3. 實作中需要使用「事件委派」
-4. 在 Rating 中評分下降成 0 以後，繼續點繫不應該出現負分
 
 ### 驗收重點
 
@@ -132,3 +109,11 @@
 ## 歡迎回饋
 
 若有任何意見，歡迎透過 issue 或 pull requests 功能給予意見。
+
+## 作業相關資訊
+
+參考課程平台 (<a href="https://lighthouse.alphacamp.co/courses/98/assignments/2981" target="_blank">原文連結</a>)
+
+##### Logs
+
+- 2021.6.21 移除題幹描述「不需要特意排除評分為負分的狀況」，納入必要規格
