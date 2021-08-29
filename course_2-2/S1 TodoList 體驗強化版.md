@@ -1,38 +1,11 @@
 # TodoList 體驗強化版
 
-## 💡 瞭解 AC 作業回饋機制
-
-在寫這份作業之前，請你務必充分瞭解 <a href="https://github.com/ALPHACamp/web-grading-rubic" target="_blank">ALPHA Camp 作業回饋機制</a>，瞭解成果如何被審查，才能主動攻略
-
-- `Meet Expectations` 條件：(1) 充分滿足【產品/程式規格與功能】(2)【驗收重點】無重大問題
-- `Try Harder`：代表學生需要停下來釐清問題，修正完成後，可 tag 助教重新判定
-
-## 作業題目
-
-參考課程平台 (<a href="https://lighthouse.alphacamp.co/courses/99/assignments/2991" target="_blank">原文連結</a>)
-
-##### Logs
-
-- 2021.8.6 指定規格明定「Done 清單中的項目也要能夠被刪除。」
-- 2021.5.26 題幹說明微幅編輯
 
 ## 批改標準
 
 > 💡  請優先完成【產品/程式規格與功能】，接著運用【驗收重點】列表檢查。
 
-### 產品/程式規格與功能
 
-1. 承接學期 2-1 的實作進度，延續此 [CodePen](https://codepen.io/alpha-camp/pen/oJoqaa) 中的已有功能
-   1. 使用者可以在輸入框按 Add 來新增 to-do
-   2. 使用者可以按垃圾桶按鈕來刪除 to-do
-   3. 使用者可以點擊 to-do 文字來標誌 checked
-2. 追加規格（畫面呈現請看題目說明）：
-   1. 防止產生空白 `todo`。當使用者在 `input` 按一堆空白鍵沒有打字，要無法建立新 `todo。`
-   2. 當使用者在 `input#newTodo` 裡按下 Enter 鍵時，可以新增 to-do。 (提示：使用 `keypress` 事件，並且用 `event.key === "Enter"` 來鎖定 Enter 鍵)
-   3. 當使用者點擊完成的 `todo` 時，該項目會被送進 Done 清單。Done 清單中的項目也要能夠被刪除。
-3. 需要驗證表單、防止例外，如：
-   1. 當使用者在 `input` 直接按 Enter，不應該建立新的 todo。
-   2. 或者，按了一堆空白鍵卻沒有打字，也需要防止新 todo 產生
 
 ### 驗收重點
 
@@ -131,6 +104,11 @@
   </tbody>
 </table>
 
-## 歡迎回饋
+## 作業相關資訊
 
-若有任何意見，歡迎透過 issue 或 pull requests 功能給予意見。
+參考課程平台 (<a href="https://lighthouse.alphacamp.co/courses/99/assignments/2991" target="_blank">原文連結</a>)
+
+##### Logs
+
+- 2021.8.6 指定規格明定「Done 清單中的項目也要能夠被刪除。」
+- 2021.5.26 題幹說明微幅編輯

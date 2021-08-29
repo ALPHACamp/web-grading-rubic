@@ -1,16 +1,5 @@
 # 學習能力驗收題組 - Q1: Learning From Your Peers
 
-## 💡 瞭解 AC 作業回饋機制
-
-在寫這份作業之前，請你務必充分瞭解 <a href="https://github.com/ALPHACamp/web-grading-rubic" target="_blank">ALPHA Camp 作業回饋機制</a>，瞭解成果如何被審查，才能主動攻略
-
-- `Meet Expectations` 條件：(1) 充分滿足【產品/程式規格與功能】(2)【驗收重點】無重大問題
-- `Try Harder`：代表學生需要停下來釐清問題，修正完成後，可 tag 助教重新判定
-
-## 作業題目
-
-參考課程平台 (<a href="https://lighthouse.alphacamp.co/courses/98/assignments/2983" target="_blank">原文連結</a>)
-
 ## 批改標準
 
 > 💡  請優先完成【產品/程式規格與功能】，接著運用【驗收重點】列表檢查。
@@ -19,11 +8,11 @@
 
 1. 針對「[某位同學的作業](https://repl.it/@alphacamp/f1-exam-peer-review-sample)」給予 peer review 回饋
 2. 作業題目指定規格：
-   1.  使用者要輸入一個 > 0, <= 100 的數字
-   1.  電腦會猜一個 >0, <=100 的數字一百次
+   1. 使用者要輸入一個 > 0, <= 100 的數字
+   1. 電腦會猜一個 >0, <=100 的數字一百次
    1. 比較電腦跟使用者的數字，如果剛好顯示 Win ，太大顯示 too big ，太小顯示 too small
    1. 如果在一百次內使用者數字剛好等於電腦的數字，則停止程式
-3. Peer review 指定回饋內容： 
+3. Peer review 指定回饋內容：
    1. 描述這支程式做了什麼。
    2. 這份程式碼品質如何？參考下圖品質檢查清單，指出：
       1. 做得好的地方
@@ -78,3 +67,7 @@
 ## 行有餘力
 
 這題沒有特別的 Exceed expectations 設計。只要能正確按引導執行 peer review 即可，也不建議同學花太多的力氣，重點是未來在日常練習中，持續保持 peer review 的習慣，在觀摩他人作業中，持續獲得讓自己成長的養分。
+
+## 作業相關資訊
+
+參考課程平台 (<a href="https://lighthouse.alphacamp.co/courses/98/assignments/2983" target="_blank">原文連結</a>)

@@ -1,26 +1,6 @@
 # 回顧 Search Bar 實作細節 (Q2: 用 filter 篩選陣列)
 
-## 💡 瞭解 AC 作業回饋機制
-
-在寫這份作業之前，請你務必充分瞭解 <a href="https://github.com/ALPHACamp/web-grading-rubic" target="_blank">ALPHA Camp 作業回饋機制</a>，瞭解成果如何被審查，才能主動攻略
-
-- `Meet Expectations` 條件：(1) 充分滿足【產品/程式規格與功能】(2)【驗收重點】無重大問題
-- `Try Harder`：代表學生需要停下來釐清問題，修正完成後，可 tag 助教重新判定
-
-## 作業題目
-
-參考課程平台 (<a href="https://lighthouse.alphacamp.co/courses/99/assignments/2995" target="_blank">原文連結</a>)
-
 ## 批改標準
-
-> 💡  請優先完成【產品/程式規格與功能】，接著運用【驗收重點】列表檢查。
-
-### 產品/程式規格與功能
-
-1. 運用指定 [CodePen](https://codepen.io/alpha-camp/pen/KKPBVBQ?editors=1010)：
-1. 必須要應用 `filter`
-2. 最後要呼叫 `renderComments` 函式來輸出畫面
-3. 且不能改變原始資料 `comments`。
 
 ### 驗收重點
 
@@ -97,6 +77,6 @@
   </tbody>
 </table>
 
-## 歡迎回饋
+## 作業相關資訊
 
-若有任何意見，歡迎透過 issue 或 pull requests 功能給予意見。
+參考課程平台 (<a href="https://lighthouse.alphacamp.co/courses/99/assignments/2995" target="_blank">原文連結</a>)

@@ -1,30 +1,8 @@
 # Adele 的歌詞本
 
-## 💡 瞭解 AC 作業回饋機制
-
-在寫這份作業之前，請你務必充分瞭解 <a href="https://github.com/ALPHACamp/web-grading-rubic" target="_blank">ALPHA Camp 作業回饋機制</a>，瞭解成果如何被審查，才能主動攻略
-
-- `Meet Expectations` 條件：(1) 充分滿足【產品/程式規格與功能】(2)【驗收重點】無重大問題
-- `Try Harder`：代表學生需要停下來釐清問題，修正完成後，可 tag 助教重新判定
-
-## 作業題目
-
-參考課程平台 (<a href="https://lighthouse.alphacamp.co/courses/99/assignments/2990" target="_blank">原文連結</a>)
-
 ## 批改標準
 
 > 💡  請優先完成【產品/程式規格與功能】，接著運用【驗收重點】列表檢查。
-
-### 產品/程式規格與功能
-
-1. 運用指定 [CodePen](https://codepen.io/alpha-camp/pen/exQRyQ) 來實作
-   1. 已有載入 axios 和 Boostrap 4 様板（注意版本）
-   2. 只需要撰寫 JavaScript，不需要更動任何 HTML 和 CSS
-2. 點擊左欄的歌曲名稱時，就會發送請求給 lyric-api-403c0.firebaseio.com，並且將回傳的歌曲顯示在右欄
-   1. 左欄的曲目由 `album` 物件動態產生
-   2. 右欄的歌詞內容需來自 lyric-api-403c0.firebaseio.com 提供的 API，並使用 axios 發送請求
-3. 參考 Bootstrap 的 [pill](https://getbootstrap.com/docs/4.0/components/navs/) 使用方式
-4. 使用 pre 標籤製作歌詞換行效果
 
 ### 驗收重點
 
@@ -128,6 +106,6 @@
   </tbody>
 </table>
 
-## 歡迎回饋
+## 作業相關資訊
 
-若有任何意見，歡迎透過 issue 或 pull requests 功能給予意見。
+參考課程平台 (<a href="https://lighthouse.alphacamp.co/courses/99/assignments/2990" target="_blank">原文連結</a>)

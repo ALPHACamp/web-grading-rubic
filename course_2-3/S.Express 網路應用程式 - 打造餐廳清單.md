@@ -1,32 +1,8 @@
 # 打造餐廳清單
 
-## 💡 瞭解 AC 作業回饋機制
-
-在寫這份作業之前，請你務必充分瞭解 <a href="https://github.com/ALPHACamp/web-grading-rubic" target="_blank">ALPHA Camp 作業回饋機制</a>，瞭解成果如何被審查，才能主動攻略
-
-- `Meet Expectations` 條件：(1) 充分滿足【產品/程式規格與功能】(2)【驗收重點】無重大問題
-- `Try Harder`：代表學生需要停下來釐清問題，修正完成後，可 tag 助教重新判定
-
-## 作業題目
-
-此作業為前後端共用作業，題程平台原文連結如下：
-
-- 2-3 前端([原文連結](https://lighthouse.alphacamp.co/courses/101/assignments/3043))
-- 2-3 後端([原文連結](https://lighthouse.alphacamp.co/courses/100/assignments/3015))
-
 ## 批改標準
 
 > 💡  請優先完成【產品/程式規格與功能】，接著運用【驗收重點】列表檢查。
-
-### 產品/程式規格與功能
-
-1. 完成餐廳清單基本功能，包括：
-    1. 使用者可以在首頁看到所有餐廳與它們的簡單資料, incl. 餐廳照片、餐廳名稱、餐廳分類、餐廳評分
-    2. 使用者可以再點進去看餐廳的詳細資訊：類別、地址、電話、描述、圖片
-    3. 使用者可以透過搜尋餐廳名稱來找到特定的餐廳
-    4. 使用者可以透過搜尋餐廳類別來找到特定的餐廳
-2. 使用指定的 [index page](https://codepen.io/alpha-camp/pen/yrLbrZ) & [show page](https://codepen.io/alpha-camp/pen/JVjNgG) 樣式
-3. 使用 [restaurant.json](https://drive.google.com/open?id=1W-BD9-c8zJRYCwAD8yhqQdLwcUdN8GZi) 製作頁面資料
 
 ### 驗收重點
 
@@ -170,6 +146,9 @@
   </tbody>
 </table>
 
-## 歡迎回饋
+## 作業相關資訊
 
-若有任何意見，歡迎透過 issue 或 pull requests 功能給予意見。
+此作業為前後端共用作業，題程平台原文連結如下：
+
+- 2-3 前端([原文連結](https://lighthouse.alphacamp.co/courses/101/assignments/3043))
+- 2-3 後端([原文連結](https://lighthouse.alphacamp.co/courses/100/assignments/3015))
