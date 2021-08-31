@@ -70,7 +70,7 @@
           <ul>
             <li>在實作過程中可能會加入額外的 console.log 做檢查，提交前應該予以刪除，只保留必要的「旁白提示」</li>
           </ul>
-          <li>遵守 JavaScript Standard style (建議安裝<a href="https://standardjs.com/index.html#install" target="_blank">自動檢查套件</a>)</li>
+          <li>遵守 JavaScript Standard style</li>
         </ul>
       </td>
     </tr>
