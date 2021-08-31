@@ -1,25 +1,8 @@
 # Promise 包裝練習
 
-## 💡 瞭解 AC 作業回饋機制
-
-在寫這份作業之前，請你務必充分瞭解 <a href="https://github.com/ALPHACamp/web-grading-rubic" target="_blank">ALPHA Camp 作業回饋機制</a>，瞭解成果如何被審查，才能主動攻略
-
-## 作業題目
-
-此作業為前後端共用作業，題程平台原文連結如下：
-
-- 2-3 前端([原文連結](https://lighthouse.alphacamp.co/courses/101/assignments/3047))
-- 2-3 後端([原文連結](https://lighthouse.alphacamp.co/courses/100/assignments/3012))
-
 ## 批改標準
 
 > 💡  請優先完成【產品/程式規格與功能】，接著運用【驗收重點】列表檢查。
-
-### 產品/程式規格與功能
-
-1. 延續系列作業【每日一狗圖．Callback 版】的程式碼進度
-2. 使用 Promise 包裝原本的 callback 程式碼
-3. 運用題目說明中的「起動程式碼」思考（有兩個版本，詳見題目說明）
 
 ### 驗收重點
 
@@ -70,6 +53,9 @@
 
 本作業為「確認自己掌握正確實作方法」的例行練習，建議同學在 1 小時內完成，不建議刻意優化。
 
-## 歡迎回饋
+## 作業相關資訊
 
-若有任何意見，歡迎透過 issue 或 pull requests 功能給予意見。
+此作業為前後端共用作業，題程平台原文連結如下：
+
+- 2-3 前端([原文連結](https://lighthouse.alphacamp.co/courses/101/assignments/3047))
+- 2-3 後端([原文連結](https://lighthouse.alphacamp.co/courses/100/assignments/3012))
