@@ -1,31 +1,8 @@
 # 我的履歷：RWD 實作應用
 
-## 💡 瞭解 AC 作業回饋機制
-
-在寫這份作業之前，請你務必充分瞭解 <a href="https://github.com/ALPHACamp/web-grading-rubic" target="_blank">ALPHA Camp 作業回饋機制</a>，瞭解成果如何被審查，才能主動攻略
-
-- `Meet Expectations` 條件：(1) 充分滿足【產品/程式規格與功能】(2)【驗收重點】無重大問題
-- `Try Harder`：代表學生需要停下來釐清問題，修正完成後，可 tag 助教重新判定
-
-## 作業題目
-
-參考課程平台 (<a href="https://lighthouse.alphacamp.co/courses/101/assignments/3033" target="_blank">原文連結</a>)
-
-##### Logs
-
-- 2021.6.21 Q1 從「自行設計 RWD wireframe」改成「依指定的 RWD 設計稿來分析 HTML」，降低同學的前置思考難度，期能強烈強求同學先思考、再實作
-
 ## 批改標準 (Q2: 實現你的 RWD 設計)
 
 > 💡  請優先完成【產品/程式規格與功能】，接著運用【驗收重點】列表檢查。
-
-### 產品/程式規格與功能
-
-1. 這題的設計需要在 Q1 先分析 HTML 架構，再進入 Q2 動手實作。
-   1. 因此，Q1 不需要特別檢查 Q1 的正確性，但若沒有提交 Q1 的「分析 HTML」作業，請直接退回。
-   2. 實務上比較難檢查出同學有沒有「先思考 Q1、再實作 Q2」，只要 Q1 有交符合意義的內容，就可以著手批改 Q2 實作成果。
-2. media query 的斷點設置需要符合 mobile first 原則 - 在 CSS 文件，由上而下的順序先是小螢幕，然後再由小到大加入 media query 來控制兩個斷點：576px, 1200px
-3. 畫面需符合 Q1 指定的設計稿（見題目說明），共有三個畫面要檢查
 
 ### 驗收重點
 
@@ -120,6 +97,10 @@
   </tbody>
 </table>
 
-## 歡迎回饋
+## 作業相關資訊
 
-若有任何意見，歡迎透過 issue 或 pull requests 功能給予意見。
+參考課程平台 (<a href="https://lighthouse.alphacamp.co/courses/101/assignments/3033" target="_blank">原文連結</a>)
+
+##### Logs
+
+- 2021.6.21 Q1 從「自行設計 RWD wireframe」改成「依指定的 RWD 設計稿來分析 HTML」，降低同學的前置思考難度，期能強烈強求同學先思考、再實作

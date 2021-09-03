@@ -1,33 +1,8 @@
 # 設計骰子遊戲的資料結構
 
-## 💡 瞭解 AC 作業回饋機制
-
-在寫這份作業之前，請你務必充分瞭解 <a href="https://github.com/ALPHACamp/web-grading-rubic" target="_blank">ALPHA Camp 作業回饋機制</a>，瞭解成果如何被審查，才能主動攻略
-
-- `Meet Expectations` 條件：(1) 充分滿足【產品/程式規格與功能】(2)【驗收重點】無重大問題
-- `Try Harder`：代表學生需要停下來釐清問題，修正完成後，可 tag 助教重新判定
-
-## 作業題目
-
-參考課程平台 (<a href="https://lighthouse.alphacamp.co/courses/98/assignments/2987" target="_blank">原文連結</a>)
-
 ## 批改標準
 
 > 💡  請優先完成【產品/程式規格與功能】，接著運用【驗收重點】列表檢查。
-
-### 產品/程式規格與功能
-
-1. 基本格式
-   1. 請畫出至少 2 張 table
-   2. 用英文為欄位命名
-   3. 放進設計稿上的樣本資料
-   4. 運用 Google Sheet 等介面畫出表格，並提交螢幕截圖。
-2. 資料設計需要考慮到指定功能，也就是說，運用表格上的資訊，要能判斷以下狀況：
-   1. 使用者可以尋找玩家對戰
-   2. 使用者每日至多挑戰 5 次
-   3. 每次對戰有：戰勝（win）、戰敗（lose）和平手（fair）三種結果
-   4. 玩家間的排名來自戰勝次數
-   5. 使用者可以查看對戰記錄 (愈新的在愈上面)
 
 ### 驗收重點
 
@@ -124,6 +99,6 @@
   </tbody>
 </table>
 
-## 歡迎回饋
+## 作業相關資訊
 
-若有任何意見，歡迎透過 issue 或 pull requests 功能給予意見。
+參考課程平台 (<a href="https://lighthouse.alphacamp.co/courses/98/assignments/2987" target="_blank">原文連結</a>)
