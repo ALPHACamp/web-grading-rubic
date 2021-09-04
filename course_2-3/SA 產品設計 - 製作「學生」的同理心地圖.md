@@ -1,22 +1,11 @@
 # 製作「學生」的同理心地圖
 
-## 💡 瞭解 AC 作業回饋機制
+## 驗收標準 
 
-在寫這份作業之前，請你務必充分瞭解 <a href="https://github.com/ALPHACamp/web-grading-rubic" target="_blank">ALPHA Camp 作業回饋機制</a>，瞭解成果如何被審查，才能主動攻略
+> 💡  請優先完成【產品功能與規格】，接著運用下方列表檢查。
 
-- `Meet Expectations` 條件：(1) 充分滿足【產品/程式規格與功能】(2)【驗收重點】無重大問題
-- `Try Harder`：代表學生需要停下來釐清問題，修正完成後，可 tag 助教重新判定
+下表綜合考量了「實務上該如何做」以及「你目前學會什麼」，需要透過助教分享他從你的作業的觀察，才能幫助我們了解哪些行為已經達到水準、繼續保持，反之，也可能會有需要改善的問題。
 
-## 作業題目
-
-此作業為前後端共用作業，題程平台原文連結如下：
-
-- 2-3 前端([原文連結](https://lighthouse.alphacamp.co/courses/101/assignments/3050))
-- 2-3 後端([原文連結](https://lighthouse.alphacamp.co/courses/100/assignments/3030))
-
-## 批改標準
-
-> 💡  請優先完成【產品/程式規格與功能】，接著運用【驗收重點】列表檢查。
 
 ### 產品/程式規格與功能
 
@@ -46,6 +35,11 @@
 - 嘗試分享自己會如何規劃優化的優先順序
 - 自行訪談一位 Lighthouse 使用者，比照上述作業規格與驗收重點練習一次
 
-## 歡迎回饋
+## 作業題目
 
-若有任何意見，歡迎透過 issue 或 pull requests 功能給予意見。
+此作業為前後端共用作業，題程平台原文連結如下：
+
+- 2-3 前端([原文連結](https://lighthouse.alphacamp.co/courses/101/assignments/3050))
+- 2-3 後端([原文連結](https://lighthouse.alphacamp.co/courses/100/assignments/3030))
+
+
