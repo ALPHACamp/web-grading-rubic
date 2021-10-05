@@ -27,8 +27,12 @@
             <li>處理 Array x Object 來動態創造曲目清單的 DOM 元素</li>
             <li>透過官方文件的要求向 axios 發出請求和獲得回傳</li>
             <li>設計事件驅動流程，在適當時機發送 Ajax 請求取得 API 資料</li>
+              <ul>
+                <li>使用 axios 時的語法是否乾淨俐落（例如：將 BASE_URL 獨立設為一個變數）</li>
+                <li>設定監聽器時，使用事件委派方式，並拓善使用 event.target, 由歌詞清單表統一監聽歌詞的點擊</li>
+              </ul>
             <li>取得 API response 之後，觀察 Array x Object 的資料結構，選出需要的資料來修改 DOM 元素</li>
-            <li>查閱 Bootstrap 4 官方文件，成功使用 pill 在左欄達到題目效果</li>
+            <li>做出 pill 效果：讓在清單上選擇中的項目，顯示鮮明的視覺強調</li>
           </ul>
           <li>其他</li>
           <ul>
@@ -82,10 +86,9 @@
     </tr>
     <tr>
       <td>程式邏輯與 Coding Style</td>
-      <td>
+      <td>本題可多注意 coding style 是否邏輯清楚、清晰好讀，值得思考的是：
         <ul>
-          <li>使用 axios 時的語法是否乾淨俐落（例如：將 BASE_URL 獨立設為一個變數）</li>
-          <li>設定監聽器時，使用事件委派方式，並拓善使用 event.target, 由歌詞清單表統一監聽歌詞的點擊</li>
+          <li>假設未來有其他歌手出現，是否能不更動程式的邏輯面？</li>
         </ul>
       </td>
     </tr>
@@ -107,3 +110,7 @@
 ## 作業相關資訊
 
 參考課程平台 (<a href="https://lighthouse.alphacamp.co/courses/99/assignments/2990" target="_blank">原文連結</a>)
+
+##### Logs
+
+2021.10.5 取消 Pill 效果使用 Bootstrap 的要求，改成可以用任何方式完成 Pill 效果。
