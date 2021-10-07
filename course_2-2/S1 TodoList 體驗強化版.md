@@ -29,7 +29,7 @@
             <li>熟練地使用迴圈配合 template literal</li>
             <li>依情況選用迭代工具，如 for loop 或 map、forEach & filter</li>
           </ul>
-          <li>其他</li>
+          <li>其他常設項目</li>
           <ul>
             <li>程式邏輯是否清晰</li>
             <li>使用 let & const 宣告變數 (不要使用 var)</li>

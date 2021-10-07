@@ -1,6 +1,6 @@
 # 餐廳清單擴充 CRUD 功能
 
-## 驗收標準 
+## 驗收標準
 
 > 💡  請優先完成【產品功能與規格】，接著運用下方列表檢查。
 
@@ -34,13 +34,16 @@
       <td>
         <ul>
           <li>新增/編輯資料時，需要檢查表單類型正確，以及資料是否滿足必填欄位 (至少要在前端檢查)</li>  
-          <li>程式邏輯是否清晰</li>
-          <li>使用 let & const 宣告變數 (不要使用 var)</li>
-          <li>變數資料型態保持前後一致</li>
-          <li>命名是否有意義、可讀性</li>
-          <li>適當運用註解幫助他人快速理解程式碼</li>
-          <li>盡量避免多餘的程式碼</li>
-          <li>遵守 JavaScript Standard style (建議安裝<a href="https://standardjs.com/index.html#install" target="_blank">自動檢查套件</a>)</li>
+          <li>其他常設項目</li>
+          <ul>
+            <li>程式邏輯是否清晰</li>
+            <li>使用 let & const 宣告變數 (不要使用 var)</li>
+            <li>變數資料型態保持前後一致</li>
+            <li>命名是否有意義、可讀性</li>
+            <li>適當運用註解幫助他人快速理解程式碼</li>
+            <li>盡量避免多餘的程式碼</li>
+            <li>遵守 JavaScript Standard style (建議安裝<a href="https://standardjs.com/index.html#install" target="_blank">自動檢查套件</a>)</li>
+          </ul>
         </ul>
       </td>
     </tr>

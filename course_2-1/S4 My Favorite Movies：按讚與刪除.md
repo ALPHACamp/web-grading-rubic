@@ -34,7 +34,7 @@
             <li>使用迴圈或是 template literal 呈現題目要求的畫面</li>
             <li>應注意到從 DOM 元素中取出的值是 string，需轉為 Number 再做進一步運算)</li>
           </ul>
-          <li>其他</li>
+          <li>其他常設項目</li>
           <ul>
             <li>程式邏輯是否清晰</li>
             <li>使用 let & const 宣告變數 (不要使用 var)</li>

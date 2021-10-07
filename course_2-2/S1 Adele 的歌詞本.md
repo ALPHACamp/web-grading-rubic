@@ -34,7 +34,7 @@
             <li>取得 API response 之後，觀察 Array x Object 的資料結構，選出需要的資料來修改 DOM 元素</li>
             <li>做出 pill 效果：讓在清單上選擇中的項目，顯示鮮明的視覺強調</li>
           </ul>
-          <li>其他</li>
+          <li>其他常設項目</li>
           <ul>
             <li>程式邏輯是否清晰</li>
             <li>使用 let & const 宣告變數 (不要使用 var)</li>
