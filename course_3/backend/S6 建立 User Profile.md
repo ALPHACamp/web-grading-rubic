@@ -16,27 +16,67 @@
   <tbody>
     <tr>
       <td>開發框架/函式庫</td>
-      <td>(略)</td>
+      <td>
+        <ul>
+          <li>綜合運用目前所學，達成以下功能：</li>
+          <ul>
+            <li>新增個人資料頁面</li>
+            <li>使用者可以編輯個人資料</li>
+            <li>編輯個人資料時，可以上傳圖片</li>
+            <li>只有自己能編輯自己的資料</li>
+            <li>常見問題</li>
+            <ul>
+              <li>上傳 Heroku 之後是否可成功上傳圖片（需要 Heroku 設定環境變數 IMGUR_CLIENT_ID）</li>
+              <li>在路由輸入不同使用者ID時，是否會使用 ID 對應的使用者（而非登入使用者）</li>
+            </ul>
+          </ul>
+          <li>正確運用框架/函式庫提供的 API，並遵從使用慣例</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td>程式邏輯與 Coding Style</td>
       <td>
         <ul>
-          <li>指定使用 Array 的 splice 和 includes 方法</li>
+          <li>新增/編輯資料時，需要檢查表單類型正確，以及資料是否滿足必填欄位 (至少要在前端檢查)</li>  
+          <li>程式邏輯是否清晰</li>
+          <li>使用 let & const 宣告變數 (不要使用 var)</li>
+          <li>變數資料型態保持前後一致</li>
+          <li>命名是否有意義、可讀性</li>
+          <li>適當運用註解幫助他人快速理解程式碼</li>
+          <li>盡量避免多餘的程式碼</li>
+          <li>遵守 JavaScript Standard style (建議安裝<a href="https://standardjs.com/index.html#install" target="_blank">自動檢查套件</a>)</li>
         </ul>
       </td>
     </tr>
       <tr>
       <td>視覺與使用者動線</td>
-      <td>(略)</td>
+      <td>
+        <ul>
+          <li>依照給定的 wireframe 添加指定功能，元件的數量、功能、元件之間的相對位置要和 wireframe 一致，而 style (顏色、邊距、留白、陰影等地方) 可自行優化</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td>資料庫</td>
-      <td>(略)</td>
+      <td>
+        <ul>
+          <li>設定題目指定的 admin & normal user 種子帳號</li>
+          <li>命名方式與指定規格一致</li>
+          <li>設計資料欄位時，選擇正確的資料型態</li>
+        </ul>
+      </td>
     </tr>
       <tr>
       <td>軟體開發工具 & 流程</td>
-      <td>(略)</td>
+      <td>
+        <ul>
+          <li>在 package.json 裡設定執行腳本，讓其他使用 git clone 下載此專案的人，能成功啟動專案（若無法照腳本執行直接 try harder）</li>
+          <li>建立粒度適當的 git commit 與清楚簡潔的 commit message</li>
+          <li>撰寫清楚明瞭的 README</li>
+          <li>需要時，加上有意義的註解</li>
+        </ul>
+      </td>
     </tr>
   </tbody>
 </table>
@@ -59,76 +99,70 @@ Q1 與 Q2 為系列題，寫完 Q1 後建議直接前往 Q2
   <tbody>
     <tr>
       <td>開發框架/函式庫</td>
-      <td>(略)</td>
+      <td>
+        <ul>
+          <li>綜合運用目前所學，達成以下功能：</li>
+          <ul>
+            <li>在「個人資料」下方，建立一塊面板，陳列出「使用者評論過的餐廳」(可以先不考慮餐廳重覆問題)</li>
+            <li>點擊餐廳時，可以連結到餐廳頁面</li>
+            <li>再次用 root 將 user1 改回一般帳號，此時 user1 會從後台退出</li>
+          </ul>
+          <li>正確運用框架/函式庫提供的 API，並遵從使用慣例</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td>程式邏輯與 Coding Style</td>
       <td>
         <ul>
-          <li>迴圈的設計，需要有掃描到 players 的每一個項目（不能因刪除而有任一項被跳過）</li>
+          <li>新增/編輯資料時，需要檢查表單類型正確，以及資料是否滿足必填欄位 (至少要在前端檢查)</li>  
+          <li>程式邏輯是否清晰</li>
+          <li>使用 let & const 宣告變數 (不要使用 var)</li>
+          <li>變數資料型態保持前後一致</li>
+          <li>命名是否有意義、可讀性</li>
+          <li>適當運用註解幫助他人快速理解程式碼</li>
+          <li>盡量避免多餘的程式碼</li>
+          <li>遵守 JavaScript Standard style (建議安裝<a href="https://standardjs.com/index.html#install" target="_blank">自動檢查套件</a>)</li>
         </ul>
       </td>
     </tr>
       <tr>
       <td>視覺與使用者動線</td>
-      <td>(略)</td>
+      <td>
+        <ul>
+          <li>依照給定的 wireframe 添加指定功能，元件的數量、功能、元件之間的相對位置要和 wireframe 一致，而 style (顏色、邊距、留白、陰影等地方) 可自行優化</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td>資料庫</td>
-      <td>(略)</td>
+      <td>
+        <ul>
+          <li>設定題目指定的 admin & normal user 種子帳號</li>
+          <li>新增種子資料，加入「使用者的餐廳評論」</li>
+          <li>設計資料欄位時，選擇正確的資料型態</li>
+          <li>欄位命名適當</li>
+        </ul>
+      </td>
     </tr>
       <tr>
       <td>軟體開發工具 & 流程</td>
-      <td>(略)</td>
+      <td>
+        <ul>
+          <li>在 package.json 裡設定執行腳本，讓其他使用 git clone 下載此專案的人，能成功啟動專案（若無法照腳本執行直接 try harder）</li>
+          <li>建立粒度適當的 git commit 與清楚簡潔的 commit message</li>
+          <li>撰寫清楚明瞭的 README</li>
+          <li>需要時，加上有意義的註解</li>
+        </ul>
+      </td>
     </tr>
   </tbody>
 </table>
 
 ## 行有餘力：優化品質、擴充規格
 
-下表蒐集了本作業可能延伸的優化方向，主要蒐集自曾獲 `Exceed expectations` 的作品，若你行有餘力、想挑戰自己，可從下表尋找靈感，若你有不同的想法，也歡迎你貢獻新的優化方法。
-
-注意，並非每位同學都需要攻略這些項目，請你先完成基本規格，行有餘力時再來挑戰。
-
-<table>
-  <thead>
-    <tr>
-      <th>優化方向</td>
-      <th>可能作法</td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>擴充規格</td>
-      <td>(略)</td>
-    </tr>
-    <tr>
-      <td>開發框架/函式庫</td>
-      <td>(略)</td>
-    </tr>
-    <tr>
-      <td>程式邏輯與 Coding Style</td>
-      <td>
-        <ul>
-          <li>在條件擴張時（如更多重覆、更多黑名單等等），目前的邏輯也能一併兼容處理</li>
-        </ul>
-      </td>
-    </tr>
-      <tr>
-      <td>視覺與使用者動線</td>
-      <td>(略)</td>
-    </tr>
-    <tr>
-      <td>資料庫</td>
-      <td>(略)</td>
-    </tr>
-    <tr>
-      <td>軟體開發工具 & 流程</td>
-      <td>(略)</td>
-    </tr>
-  </tbody>
-</table>
+現階段，本題暫時沒有 Exceed Expectations 的期待設定，建議同學完成作業後，繼續往下學習。
 
 ## 作業相關資訊
 
-參考課程平台 (<a href="https://lighthouse.alphacamp.co/courses/118/assignments/3565"_blank">原文連結</a>)
+參考課程平台 (<a href="https://lighthouse.alphacamp.co/courses/118/assignments/3565" target="_blank">原文連結</a>)
