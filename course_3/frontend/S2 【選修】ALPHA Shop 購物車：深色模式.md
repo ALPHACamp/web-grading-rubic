@@ -18,7 +18,7 @@
       <td>開發框架/函式庫</td>
       <td>
         <ul>
-          <li>正確運用框架/函式庫提供的 API，並遵從使用慣例</li>
+          <li>不使用前端套件 ex. Bootstrap 而有 RWD 效果</li>
         </ul>
       </td>
     </tr>
@@ -41,7 +41,7 @@
       <td>視覺與使用者動線</td>
       <td>
         <ul>
-          <li>在「餐廳清單擴充 CRUD 功能」專案之上，依照給定的 wireframe 添加指定功能，元件的數量、功能、元件之間的相對位置要和 wireframe 一致，而 style (顏色、邊距、留白、陰影等地方) 可自行優化</li>
+          <li>在「ALPHA Shop 購物車」專案之上，依照給定的 wireframe 添加指定功能，元件的數量、功能、元件之間的相對位置要和 wireframe 一致，而 style (顏色、邊距、留白、陰影等地方) 可自行優化</li>
         </ul>
       </td>
     </tr>
@@ -83,13 +83,7 @@
   <tbody>
     <tr>
       <td>擴充規格</td>
-      <td>在 index 頁面以 dropdown box 的形式讓使用者可以設定餐廳排序，排序方式可能為：
-        <ul>
-          <li>字母排序</li>
-          <li>類別</li>
-          <li>地區</li>
-        </ul>
-      </td>
+      <td>(略)</td>
     </tr>
     <tr>
       <td>開發框架/函式庫</td>
