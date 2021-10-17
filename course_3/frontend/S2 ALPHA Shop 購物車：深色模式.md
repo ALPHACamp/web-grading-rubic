@@ -1,4 +1,4 @@
-# ALPHA Shop 購物車 : 完成指定區塊
+# 【選修】ALPHA Shop 購物車：深色模式
 
 ## 驗收標準
 
@@ -16,12 +16,7 @@
   <tbody>
     <tr>
       <td>開發框架/函式庫</td>
-      <td>
-        <ul>
-          <li>使用 Sass 工具，運用關鍵字 `@mixin` 、 `@include` 、 `@each` 、 `@extend` 撰寫樣式</li>
-          <li>不使用前端套件 ex. Bootstrap 而有 RWD 效果</li>
-        </ul>
-      </td>
+      <td>略</td>
     </tr>
     <tr>
       <td>程式邏輯與 Coding Style</td>
@@ -41,8 +36,8 @@
       <td>視覺與使用者動線</td>
       <td>
         <ul>
-          <li>成品相較設計稿有八成以上相似度，包含樣式 ( 字體、顏色、icon 等 )、 排版與互動功能</li>
-          <li>RWD 以 375px 為分界</li>
+          <li>可以順利切換淺色/深色模式</li>
+          <li>深色模式的配色和設計稿指定的一模一樣</li>
         </ul>
       </td>
     </tr>
@@ -52,12 +47,14 @@
     </tr>
       <tr>
       <td>軟體開發工具 & 流程</td>
-      <td>需記錄各區塊的實作時間</td>
+      <td>需附上 200 字思考與完成挑戰的過程，愈能清晰表達實作「過程」愈好</td>
     </tr>
   </tbody>
 </table>
 
 ## 行有餘力：優化品質、擴充規格
+
+如同前一題【完成指定區塊】的建議，對前端切版來說，投入更多時間，你就會得到更精細的成果，然而，現階段同學的
 
 若成功完成 stepper、form、購物籃三個部分的視覺架構，則滿足了 `Meed expectations` 標準。
 
@@ -65,11 +62,8 @@
 
 現階段，大部分同學的「切版熟練習/速度」還有待提升，而寫作業的時間是有限的，因此建議同學審慎評估自己的時間運用，並且在練習過程中，持續留意「能讓寫 code 更有效率的技巧」，例如 CSS 文件排版、命名習慣等等。
 
-基於上述焦點，本題考慮 `Exceed expectation` 時，會相當著重：
-
-1. 文件可讀性
-2. 文件可維護性
+基於上述焦點，本題考慮 `Exceed expectation` 時，會相當著重文件可讀性。
 
 ## 作業相關資訊
 
-參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/119/assignments/3622))。
+參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/119/assignments/3625))。
