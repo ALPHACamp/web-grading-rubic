@@ -1,4 +1,4 @@
-# 重構餐廳清單
+# 餐廳清單．Final
 
 ## 驗收標準
 
@@ -18,9 +18,13 @@
       <td>開發框架/函式庫</td>
       <td>
         <ul>
-          <li>正確運用框架/函式庫提供的 API，並遵從使用慣例</li>
-          <li>運用 Express.Router，打造符合 RESTful 設計的路由系統，將路由從 app.js 分離獨立</li>
-          <li>正確使用 Mongoose 提供的 model 操作方法</li>
+          <li>運用第三方工具來強化 app 的功能</li>
+          <ul>
+            <li>使用 Passport 打造註冊功能</li>
+            <li>串接 Facebook 第三方登入</li>
+            <li>使用 bcrypt 保護使用者的密碼</li>
+          </ul>
+          <li>能打造「使用者認證」的基本體驗，包括動線、邏輯、資料設計以及例外處理</li>
         </ul>
       </td>
     </tr>
@@ -44,10 +48,7 @@
     </tr>
       <tr>
       <td>視覺與使用者動線</td>
-      <td>
-        <ul>
-          <li>在「餐廳清單擴充 CRUD 功能」專案之上，依照給定的 wireframe 添加指定功能，元件的數量、功能、元件之間的相對位置要和 wireframe 一致，而 style (顏色、邊距、留白、陰影等地方) 可自行優化</li>
-        </ul>
+      <td>理論上，本作業不著重視覺，只會在擴充登入功能時，加入必要的表單 & 按鈕
       </td>
     </tr>
     <tr>
@@ -63,7 +64,7 @@
       <td>軟體開發工具 & 流程</td>
       <td>
         <ul>
-          <li>當助教 git clone 你的專案時，能正常啟動</li>
+          <li>在 package.json 裡設定執行腳本，讓其他使用 git clone 下載此專案的人，能成功啟動專案（若無法照腳本執行直接 try harder）</li>
           <li>建立粒度適當的 git commit 與清楚簡潔的 commit message</li>
           <li>撰寫清楚明瞭的 README</li>
           <li>需要時，加上有意義的註解</li>
@@ -75,51 +76,16 @@
 
 ## 行有餘力：優化品質、擴充規格
 
-下表蒐集了本作業可能延伸的優化方向，主要蒐集自曾獲 `Exceed expectations` 的作品，若你行有餘力、想挑戰自己，可從下表尋找靈感，若你有不同的想法，也歡迎你貢獻新的優化方法。
+若 app 在「一般使用場景」下能讓指定規格順利運作，則滿足了 `Meed expectations` 標準。若要攻略 `Exceed expectations`，原則是：
 
-注意，並非每位同學都需要攻略這些項目，請你先完成基本規格，行有餘力時再來挑戰。
-
-<table>
-  <thead>
-    <tr>
-      <th>優化方向</td>
-      <th>可能作法</td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>擴充規格</td>
-      <td>在 index 頁面以 dropdown box 的形式讓使用者可以設定餐廳排序，排序方式可能為：
-        <ul>
-          <li>字母排序</li>
-          <li>類別</li>
-          <li>地區</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>開發框架/函式庫</td>
-      <td>(略)</td>
-    </tr>
-    <tr>
-      <td>程式邏輯與 Coding Style</td>
-      <td>可以想想看若要疊加多個篩選條件，篩選功能該怎麼做？</td>
-    </tr>
-      <tr>
-      <td>視覺與使用者動線</td>
-      <td>(略)</td>
-    </tr>
-    <tr>
-      <td>資料庫</td>
-      <td>(略)</td>
-    </tr>
-      <tr>
-      <td>軟體開發工具 & 流程</td>
-      <td>(略)</td>
-    </tr>
-  </tbody>
-</table>
+- 在已「滿足基本規格」的前提下，許多同學在行有餘力時，會針對自己感興趣的地方，強化功能或體驗，例如：
+  - 建構新的前端互動設計
+  - 強化表單的例外處理
+  - 提升 coding style
+  - 撰寫 README
+  - .....等等
+- 若同學在「基本規格外的新嘗試」做出了明確的階段成果（反例是，雖有一些想法，但不知如何實作，只能起個頭，再來和助教討論），若助教評估此同學的「新嘗試」足夠完整，會想推薦給其他同學做為參考，則可考慮給出 `Exceed expectations`
 
 ## 作業相關資訊
 
-參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/100/assignments/3021))。
+參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/118/assignments/3547))。

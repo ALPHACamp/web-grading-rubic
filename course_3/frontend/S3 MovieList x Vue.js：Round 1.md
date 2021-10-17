@@ -1,12 +1,8 @@
-# 短網址產生器
+# MovieList x Vue.js：Round 1
 
 ## 驗收標準
 
 > 💡  請優先完成【產品功能與規格】，接著運用下方列表檢查。
-
-下表綜合考量了「實務上該如何做」以及「你目前學會什麼」，需要透過助教分享他從你的作業的觀察，才能幫助我們了解哪些行為已經達到水準、繼續保持，反之，也可能會有需要改善的問題。
-
-### 驗收重點
 
 下表綜合考量了「實務上該如何做」以及「你目前學會什麼」，需要透過助教分享他從你的作業的觀察，才能幫助我們了解哪些行為已經達到水準、繼續保持，反之，也可能會有需要改善的問題。
 
@@ -30,30 +26,22 @@
       <td>程式邏輯與 Coding Style</td>
       <td>
         <ul>
-          <li>例外處理
-            <ul>
-              <li>若使用者沒有輸入內容，就按下了送出鈕，需要防止表單送出並提示使用者</li>
-              <li>（暫時不考慮「兩個不同網址得到重覆亂數組合」的情況）</li>
-            </ul>
-          </li>
-          <li>其他常設項目</li>
-          <ul>
-            <li>程式邏輯是否清晰</li>
-            <li>使用 let & const 宣告變數 (不要使用 var)</li>
-            <li>變數資料型態保持前後一致</li>
-            <li>命名是否有意義、可讀性</li>
-            <li>適當運用註解幫助他人快速理解程式碼</li>
-            <li>盡量避免多餘的程式碼</li>
-            <li>遵守 JavaScript Standard style (建議安裝<a href="https://standardjs.com/index.html#install" target="_blank">自動檢查套件</a>)</li>
-          </ul>
+          <li>新增/編輯資料時，需要檢查表單類型正確，以及資料是否滿足必填欄位 (至少要在前端檢查)</li>  
+          <li>程式邏輯是否清晰</li>
+          <li>使用 let & const 宣告變數 (不要使用 var)</li>
+          <li>變數資料型態保持前後一致</li>
+          <li>命名是否有意義、可讀性</li>
+          <li>適當運用註解幫助他人快速理解程式碼</li>
+          <li>盡量避免多餘的程式碼</li>
+          <li>遵守 JavaScript Standard style (建議安裝<a href="https://standardjs.com/index.html#install" target="_blank">自動檢查套件</a>)</li>
         </ul>
       </td>
     </tr>
-    <tr>
+      <tr>
       <td>視覺與使用者動線</td>
       <td>
         <ul>
-          <li>必要元件長相、相對位置大致與 wireframe 一致</li>
+          <li>在「餐廳清單擴充 CRUD 功能」專案之上，依照給定的 wireframe 添加指定功能，元件的數量、功能、元件之間的相對位置要和 wireframe 一致，而 style (顏色、邊距、留白、陰影等地方) 可自行優化</li>
         </ul>
       </td>
     </tr>
@@ -70,11 +58,6 @@
       <td>軟體開發工具 & 流程</td>
       <td>
         <ul>
-          <li>在 package.json 裡設定執行腳本，讓其他使用 git clone 下載此專案的人，能成功啟動專案（若無法照腳本執行直接 try harder）</li>
-          <ul>
-            <li>腳本中完整包含啟動專案的所有必要動作</li>
-            <li>腳本中使用的檔名與變數名稱與專案一致</li>
-          </ul>
           <li>建立粒度適當的 git commit 與清楚簡潔的 commit message</li>
           <li>撰寫清楚明瞭的 README</li>
           <li>需要時，加上有意義的註解</li>
@@ -100,15 +83,17 @@
   <tbody>
     <tr>
       <td>擴充規格</td>
-      <td>(略)</td>
+      <td>在 index 頁面以 dropdown box 的形式讓使用者可以設定餐廳排序，排序方式可能為：
+        <ul>
+          <li>字母排序</li>
+          <li>類別</li>
+          <li>地區</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td>開發框架/函式庫</td>
-      <td>
-         <ul>
-          <li>每支 router 有確實處理例外，可以參考 <a href="https://expressjs.com/zh-tw/guide/error-handling.html" target="_blank">Express 錯誤處理</a></li>
-        </ul>
-      </td>
+      <td>(略)</td>
     </tr>
     <tr>
       <td>程式邏輯與 Coding Style</td>
@@ -131,8 +116,4 @@
 
 ## 作業相關資訊
 
-參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/100/assignments/3027))。
-
-##### Logs
-
-- 2021.9.22 檢查本作業練習範圍與學期目標的一致性，移除「防止重覆亂數」與「佈署至 Heroku」等規格，避免學生使用超前進度解決問題
+參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/119/assignments/3604))。
