@@ -74,7 +74,7 @@
   </tbody>
 </table>
 
-## 行有餘力：優化品質、擴充規格
+## 行有餘力的行動建議
 
 若 app 在「一般使用場景」下能讓指定規格順利運作，則滿足了 `Meed expectations` 標準。若要攻略 `Exceed expectations`，原則是：
 

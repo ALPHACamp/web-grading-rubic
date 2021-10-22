@@ -57,7 +57,7 @@
   </tbody>
 </table>
 
-## 行有餘力：優化品質、擴充規格
+## 行有餘力的行動建議
 
 若成功完成 stepper、form、購物籃三個部分的視覺架構，則滿足了 `Meed expectations` 標準。
 
