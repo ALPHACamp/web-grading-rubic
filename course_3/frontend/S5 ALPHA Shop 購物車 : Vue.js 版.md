@@ -62,7 +62,7 @@
       <td>軟體開發工具 & 流程</td>
       <td>
         <ul>
-          <li>撰寫清楚明瞭的 README，可幫助下載專案的人成功啟動專案</li>
+          <li>撰寫清楚明瞭的 README，可幫助下載專案的人成功啟動專案（若無法照 README 啟動專案直接 try harder）</li>
           <li>建立粒度適當的 git commit 與清楚簡潔的 commit message</li>
           <li>需要時，加上有意義的註解</li>
         </ul>
@@ -107,12 +107,10 @@
 
 以上。
 
-注意，挑戰功能讓同學可挖掘更深入的實作細節，與助教進行更深入的切磋。然而，挑戰功能會有更多的實務考量，助教在評估挑戰功能時，會考慮到功能的完整度與品質，我們不會單純因為嘉獎同學「做出來」而給予 `Exceed expectations`，本題要獲得 `Exceed expectations` 相當困難。
+若助教評估同學實作的挑戰功能有足夠的完整度，值得推薦給其他同學做為參考，則可考慮給予 `Exceed expectations`。
 
 ## 作業相關資訊
 
 參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/119/assignments/3613))。
-
-##### Log
 
 - 2021.11.1 發佈驗收標準，澄清挑戰題與 Exceed expectations 的關係
