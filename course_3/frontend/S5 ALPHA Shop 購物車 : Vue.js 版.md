@@ -73,7 +73,7 @@
 
 ## 行有餘力的行動建議
 
-若成功完成題目指定功能，則滿足了 `Meed expectations` 標準。
+若成功完成題目指定功能，則滿足了 `Meet expectations` 標準。
 
 此時，建議同學先整理一下專案的元件拆分以及程式碼易讀性，精進方向包括：
 
@@ -83,8 +83,6 @@
 - 結帳二字下方顯示「當前步驟」的元件 (stepper) 不是放在 Vue-Router 內，而且狀態是由 props 控制
 
 若行有餘力，我們規劃了以下挑戰功能，同學可選擇完成，記得在提交作業時向助教說明你選擇了哪些挑戰功能。
-
-注意，並非每位同學都需要攻略這些項目，請你先完成基本規格，行有餘力時再來挑戰。
 
 #### 挑戰 1 (資料處理)
 
@@ -107,6 +105,14 @@
 
 <div style="width:100%"> <a href="https://i.imgur.com/xOjJNCR.gif" target="_blank"><img style="max-width:700px;width:100%;" src="https://i.imgur.com/xOjJNCR.gif"></a></div>
 
+以上。
+
+注意，挑戰功能讓同學可挖掘更深入的實作細節，與助教進行更深入的切磋。然而，挑戰功能會有更多的實務考量，助教在評估挑戰功能時，會考慮到功能的完整度與品質，我們不會單純因為嘉獎同學「做出來」而給予 `Exceed expectations`，本題要獲得 `Exceed expectations` 相當困難。
+
 ## 作業相關資訊
 
 參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/119/assignments/3613))。
+
+##### Log
+
+- 2021.11.1 發佈驗收標準，澄清挑戰題與 Exceed expectations 的關係
