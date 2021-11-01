@@ -18,7 +18,7 @@
       <td>開發框架/函式庫</td>
       <td>
         <ul>
-          <li>使用 Sass 工具，運用關鍵字 `@mixin` 、 `@include` 、 `@each` 、 `@extend` 撰寫樣式</li>
+          <li>使用 Sass 工具，運用關鍵字 <code>@mixin</code> 、 <code>@include</code> 、 <code>@each</code> 、 <code>@extend</code> 撰寫樣式</li>
           <li>不使用前端套件 ex. Bootstrap 而有 RWD 效果</li>
         </ul>
       </td>
@@ -41,7 +41,7 @@
       <td>視覺與使用者動線</td>
       <td>
         <ul>
-          <li>成品相較設計稿有八成以上相似度，包含樣式 ( 字體、顏色、icon 等 )、 排版與互動功能</li>
+          <li>成品相較設計稿有八成以上相似度，包含樣式 (字體、顏色、icon 等)、 排版與互動功能</li>
           <li>RWD 以 375px 為分界</li>
         </ul>
       </td>
