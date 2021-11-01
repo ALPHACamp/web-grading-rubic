@@ -18,7 +18,11 @@
       <td>開發框架/函式庫</td>
       <td>
         <ul>
-          <li>正確運用框架/函式庫提供的 API，並遵從使用慣例</li>
+          <li>綜合應用目前為止學會的 Vue 技巧，包括：</li>
+          <ul>
+            <li>使用 props 向下傳遞資料</li>
+            <li>使用 vue 指令綁定事件</li>
+          </ul>
         </ul>
       </td>
     </tr>
@@ -26,14 +30,19 @@
       <td>程式邏輯與 Coding Style</td>
       <td>
         <ul>
-          <li>新增/編輯資料時，需要檢查表單類型正確，以及資料是否滿足必填欄位 (至少要在前端檢查)</li>  
-          <li>程式邏輯是否清晰</li>
-          <li>使用 let & const 宣告變數 (不要使用 var)</li>
-          <li>變數資料型態保持前後一致</li>
-          <li>命名是否有意義、可讀性</li>
-          <li>適當運用註解幫助他人快速理解程式碼</li>
-          <li>盡量避免多餘的程式碼</li>
-          <li>遵守 JavaScript Standard style (建議安裝<a href="https://standardjs.com/index.html#install" target="_blank">自動檢查套件</a>)</li>
+          <li>檔案名稱與 component 名稱是否一致</li>
+          <li>正確解析頁面結構，拆成不同的 component 分開實作 - 例如拆分共用的元件以重複利用，或是按邏輯將視覺元件拆分。</li>
+          <li>Vue 的寫法是否符合慣例（若按照官方 document 內的建議寫法基本上就會符合）</li>
+          <li>其他常設項目</li>
+          <ul>
+            <li>程式邏輯是否清晰</li>
+            <li>使用 let & const 宣告變數 (不要使用 var)</li>
+            <li>變數資料型態保持前後一致</li>
+            <li>命名是否有意義、可讀性</li>
+            <li>適當運用註解幫助他人快速理解程式碼</li>
+            <li>盡量避免多餘的程式碼</li>
+            <li>遵守 JavaScript Standard style (建議安裝<a href="https://standardjs.com/index.html#install" target="_blank">自動檢查套件</a>)</li>
+          </ul>
         </ul>
       </td>
     </tr>
@@ -41,25 +50,20 @@
       <td>視覺與使用者動線</td>
       <td>
         <ul>
-          <li>在「餐廳清單擴充 CRUD 功能」專案之上，依照給定的 wireframe 添加指定功能，元件的數量、功能、元件之間的相對位置要和 wireframe 一致，而 style (顏色、邊距、留白、陰影等地方) 可自行優化</li>
+          <li>依照給定的 wireframe 添加指定功能，元件的數量、功能、元件之間的相對位置要和 wireframe 一致，而 style (顏色、邊距、留白、陰影等地方) 可自行優化</li>
         </ul>
       </td>
     </tr>
     <tr>
       <td>資料庫</td>
-      <td>
-        <ul>
-          <li>設計資料欄位時，選擇正確的資料型態</li>
-          <li>欄位命名適當</li>
-        </ul>
-      </td>
+      <td>略</td>
     </tr>
       <tr>
       <td>軟體開發工具 & 流程</td>
       <td>
         <ul>
+          <li>撰寫清楚明瞭的 README，可幫助下載專案的人成功啟動專案（若無法照 README 啟動專案直接 try harder）</li>
           <li>建立粒度適當的 git commit 與清楚簡潔的 commit message</li>
-          <li>撰寫清楚明瞭的 README</li>
           <li>需要時，加上有意義的註解</li>
         </ul>
       </td>
@@ -67,53 +71,46 @@
   </tbody>
 </table>
 
-## 行有餘力：優化品質、擴充規格
+## 行有餘力的行動建議
 
-下表蒐集了本作業可能延伸的優化方向，主要蒐集自曾獲 `Exceed expectations` 的作品，若你行有餘力、想挑戰自己，可從下表尋找靈感，若你有不同的想法，也歡迎你貢獻新的優化方法。
+若成功完成題目指定功能，則滿足了 `Meet expectations` 標準。
 
-注意，並非每位同學都需要攻略這些項目，請你先完成基本規格，行有餘力時再來挑戰。
+此時，建議同學先整理一下專案的元件拆分以及程式碼易讀性，精進方向包括：
 
-<table>
-  <thead>
-    <tr>
-      <th>優化方向</td>
-      <th>可能作法</td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>擴充規格</td>
-      <td>在 index 頁面以 dropdown box 的形式讓使用者可以設定餐廳排序，排序方式可能為：
-        <ul>
-          <li>字母排序</li>
-          <li>類別</li>
-          <li>地區</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>開發框架/函式庫</td>
-      <td>(略)</td>
-    </tr>
-    <tr>
-      <td>程式邏輯與 Coding Style</td>
-      <td>(略)</td>
-    </tr>
-      <tr>
-      <td>視覺與使用者動線</td>
-      <td>(略)</td>
-    </tr>
-    <tr>
-      <td>資料庫</td>
-      <td>(略)</td>
-    </tr>
-      <tr>
-      <td>軟體開發工具 & 流程</td>
-      <td>(略)</td>
-    </tr>
-  </tbody>
-</table>
+- Vue 的寫法符合慣例（若按照官方 document 內的建議寫法基本上就會符合，反例則是用 document.addEventListener 而非 v-on）
+- 正確解析頁面結構，拆成不同的 component 分開實作。例如拆分共用的元件以重複利用，或是按邏輯將視覺元件拆分。
+- 使用適當的 HTML 元素（例如 input type, name）
+- 結帳二字下方顯示「當前步驟」的元件 (stepper) 不是放在 Vue-Router 內，而且狀態是由 props 控制
+
+若行有餘力，我們規劃了以下挑戰功能，同學可選擇完成，記得在提交作業時向助教說明你選擇了哪些挑戰功能。
+
+#### 挑戰 1 (資料處理)
+
+使用者在結帳區塊輸入的資料應被保存。在使用者點擊「確認下單」後，結帳結果會顯示在畫面上，呈現方式有下列兩種：
+
+- 難度一：在 console 上印出來
+- 難度二：顯示在 Modal 上
+
+<div style="width:100%"> <a href="https://assets-lighthouse.alphacamp.co/uploads/image/file/16186/ExportedContentImage_01.png" target="_blank"><img style="max-width:700px;width:100%;" src="https://assets-lighthouse.alphacamp.co/uploads/image/file/16186/ExportedContentImage_01.png"></a></div>
+
+#### 挑戰 2 (Router 設定)
+
+使用 Vue-Router 設定，處理「結帳區」的三個階段。使用了 Vue-Router 以後，每按下「下一步」時網址會變，若重新整理還是會留在同一個步驟。
+
+#### 挑戰 3 (使用者體驗)
+
+使用 localStorage 把使用者填過的資料存下來，當頁面重新整理後，填過的資料也不會不見。
+
+終極版本的 live demo 如下：
+
+<div style="width:100%"> <a href="https://github.com/ALPHACamp/web-grading-rubic/blob/main/images/live.gif" target="_blank"><img style="max-width:700px;width:100%;" src="https://github.com/ALPHACamp/web-grading-rubic/blob/main/images/live.gif"></a></div>
+
+以上。
+
+若助教評估同學實作的挑戰功能有足夠的完整度，值得推薦給其他同學做為參考，則可考慮給予 `Exceed expectations`。
 
 ## 作業相關資訊
 
 參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/119/assignments/3613))。
+
+- 2021.11.1 發佈驗收標準，澄清挑戰題與 Exceed expectations 的關係
