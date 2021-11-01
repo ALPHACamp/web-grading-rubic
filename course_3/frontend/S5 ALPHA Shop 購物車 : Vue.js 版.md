@@ -103,7 +103,7 @@
 
 終極版本的 live demo 如下：
 
-<div style="width:100%"> <a href="https://github.com/ALPHACamp/web-grading-rubic/blob/main/live.gif" target="_blank"><img style="max-width:700px;width:100%;" src="https://github.com/ALPHACamp/web-grading-rubic/blob/main/live.gif"></a></div>
+<div style="width:100%"> <a href="https://github.com/ALPHACamp/web-grading-rubic/blob/main/images/live.gif" target="_blank"><img style="max-width:700px;width:100%;" src="https://github.com/ALPHACamp/web-grading-rubic/blob/main/images/live.gif"></a></div>
 
 以上。
 
