@@ -1,4 +1,4 @@
-# 使用者權限管理 - /admin/users
+# Like / Unlike
 
 ## 驗收標準
 
@@ -20,9 +20,7 @@
         <ul>
           <li>綜合運用目前所學，達成以下功能：</li>
           <ul>
-            <li>使用 root 帳號登入後台，能成功在介面上將 user1 改為管理員，修改成功時會達到明確提示</li>
-            <li>操作完成後，使用 user 1 登入，理應可以進入後台頁面</li>
-            <li>再次用 root 將 user1 改回一般帳號，此時 user1 會從後台退出</li>
+            <li>在首頁的餐廳卡片、以及餐廳個別頁面上，增加「Like/Unlike」的功能，讓使用者可以紀錄自己喜歡的餐廳</li>
           </ul>
           <li>正確運用框架/函式庫提供的 API，並遵從使用慣例</li>
         </ul>
@@ -32,14 +30,18 @@
       <td>程式邏輯與 Coding Style</td>
       <td>
         <ul>
-          <li>新增/編輯資料時，需要檢查表單類型正確，以及資料是否滿足必填欄位 (至少要在前端檢查)</li>  
-          <li>程式邏輯是否清晰</li>
-          <li>使用 let & const 宣告變數 (不要使用 var)</li>
-          <li>變數資料型態保持前後一致</li>
-          <li>命名是否有意義、可讀性</li>
-          <li>適當運用註解幫助他人快速理解程式碼</li>
-          <li>盡量避免多餘的程式碼</li>
-          <li>遵守 JavaScript Standard style (建議安裝<a href="https://standardjs.com/index.html#install" target="_blank">自動檢查套件</a>)</li>
+          <li>使用者可以 toggle Like/Unlike 按鈕</li>
+          <li>使用者點擊 Like/Unlike 按鈕時，會有對應的新增/移除資料操作</li>
+          <li>其他常設項目</li>
+          <ul>
+            <li>程式邏輯是否清晰</li>
+            <li>使用 let & const 宣告變數 (不要使用 var)</li>
+            <li>變數資料型態保持前後一致</li>
+            <li>命名是否有意義、可讀性</li>
+            <li>適當運用註解幫助他人快速理解程式碼</li>
+            <li>盡量避免多餘的程式碼</li>
+            <li>遵守 JavaScript Standard style (建議安裝<a href="https://standardjs.com/index.html#install" target="_blank">自動檢查套件</a>)</li>
+          </ul>
         </ul>
       </td>
     </tr>
@@ -55,9 +57,13 @@
       <td>資料庫</td>
       <td>
         <ul>
-          <li>設定題目指定的 admin & normal user 種子帳號</li>
-          <li>命名方式與指定規格一致</li>
-          <li>設計資料欄位時，選擇正確的資料型態</li>
+          <li>新增 Like 資料表</li>
+          <li>建立 User & Like 的多對多關聯</li>
+          <li>其他常設項目</li>
+          <ul>
+            <li>命名方式與指定規格一致</li>
+            <li>設計資料欄位時，選擇正確的資料型態</li>
+          </ul>
         </ul>
       </td>
     </tr>
@@ -81,4 +87,4 @@
 
 ## 作業相關資訊
 
-參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/118/assignments/3563))。
+參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/118/assignments/3568))。

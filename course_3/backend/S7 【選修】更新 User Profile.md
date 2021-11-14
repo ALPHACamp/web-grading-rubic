@@ -1,4 +1,4 @@
-# 使用者權限管理 - /admin/users
+# 更新 User Profile
 
 ## 驗收標準
 
@@ -20,9 +20,8 @@
         <ul>
           <li>綜合運用目前所學，達成以下功能：</li>
           <ul>
-            <li>使用 root 帳號登入後台，能成功在介面上將 user1 改為管理員，修改成功時會達到明確提示</li>
-            <li>操作完成後，使用 user 1 登入，理應可以進入後台頁面</li>
-            <li>再次用 root 將 user1 改回一般帳號，此時 user1 會從後台退出</li>
+            <li>讓使用者可在 Profile 頁面查看自己的互動資料</li>
+            <li>只要能正確撈出對應資料，即可通過本題 (暫不考慮資料的排序或重覆)</li>
           </ul>
           <li>正確運用框架/函式庫提供的 API，並遵從使用慣例</li>
         </ul>
@@ -55,7 +54,6 @@
       <td>資料庫</td>
       <td>
         <ul>
-          <li>設定題目指定的 admin & normal user 種子帳號</li>
           <li>命名方式與指定規格一致</li>
           <li>設計資料欄位時，選擇正確的資料型態</li>
         </ul>
@@ -77,8 +75,11 @@
 
 ## 行有餘力的行動建議
 
-現階段，本題暫時沒有 Exceed Expectations 的期待設定，建議同學完成作業後，繼續往下學習。
+可進一步思考的優化方向是：
+
+- 如果使用者評論過很多餐廳，在 Profile 裡是否可以讓該餐廳只顯示 1 次？
+- 另外，可以檢查看看目前畫面上需要的必要資料，目前 app 的邏輯設計一定能確保這些資料不是 null or undefined 嗎？有沒有什麼防呆機制？
 
 ## 作業相關資訊
 
-參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/118/assignments/3563))。
+參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/118/assignments/3570))。
