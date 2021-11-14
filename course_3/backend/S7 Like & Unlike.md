@@ -1,4 +1,4 @@
-# 使用者權限管理 - /admin/users
+# Like / Unlike  Q2: 使用者可以 Like / Unlike 餐廳
 
 ## 驗收標準
 
@@ -81,4 +81,4 @@
 
 ## 作業相關資訊
 
-參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/118/assignments/3563))。
+參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/118/assignments/3568))。
