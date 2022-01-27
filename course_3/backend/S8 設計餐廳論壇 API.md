@@ -20,4 +20,4 @@
 
 ## 作業相關資訊
 
-參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/118/assignments/3743))。
+參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/118/assignments/3745))。
