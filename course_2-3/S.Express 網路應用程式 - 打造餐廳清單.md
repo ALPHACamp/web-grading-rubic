@@ -140,6 +140,21 @@
   </tbody>
 </table>
 
+* 優化搜尋功能：進階方法，使用者可以加入空格來增加搜尋條件
+
+如：搜尋時輸入「義式 啤酒」，只會顯示同時有義式與啤酒的餐廳
+
+```javascript
+const keywordsList = req.query.keywords.toLowerCase().split(" ")
+const filterRestaurantsData = restaurantsData.filter(data =>
+  keywordsList.some(
+    keyword =>
+      data.category.includes(keyword) ||
+      data.name.toLowerCase().includes(keyword)
+  )
+)
+```
+
 ## 作業相關資訊
 
 此作業為前後端共用作業，題程平台原文連結如下：
