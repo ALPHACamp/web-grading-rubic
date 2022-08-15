@@ -1,4 +1,4 @@
-# CSS 驗收：display
+# CSS 驗收：position
 
 ## 驗收標準 (Q1 & Q2 共用)
 
