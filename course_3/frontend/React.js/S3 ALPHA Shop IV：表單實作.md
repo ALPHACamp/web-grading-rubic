@@ -2,7 +2,7 @@
 
 ## 驗收標準
 
-> 💡  請優先完成【產品功能與規格】，接著運用下方列表檢查。
+> 💡 請優先完成【產品功能與規格】，接著運用下方列表檢查。
 
 下表綜合考量了「實務上該如何做」以及「你目前學會什麼」，需要透過助教分享他從你的作業的觀察，才能幫助我們了解哪些行為已經達到水準、繼續保持，反之，也可能會有需要改善的問題。
 
@@ -46,7 +46,6 @@
             <li>命名是否有意義、可讀性</li>
             <li>適當運用註解幫助他人快速理解程式碼</li>
             <li>盡量避免多餘的程式碼</li>
-            <li>遵守 JavaScript Standard style (建議安裝<a href="https://standardjs.com/index.html#install" target="_blank">自動檢查套件</a>)</li>
           </ul>
         </ul>
       </td>
@@ -76,7 +75,7 @@
 此時，建議同學先整理一下專案的元件拆分以及程式碼易讀性，精進方向包括：
 
 - React 的寫法符合慣例（若按照官方 document 內的建議寫法基本上就會符合）
-    - 例如不是用 onClick 而是用 document.addEventListener 就會不符合
+  - 例如不是用 onClick 而是用 document.addEventListener 就會不符合
 - 正確解析頁面結構，拆成不同的 component 分開實作。例如拆分共用的元件以重複利用，或是按邏輯將視覺元件拆分。
 - 使用適當的 HTML 元素（例如 input type, name）
 
