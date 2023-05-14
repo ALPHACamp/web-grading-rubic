@@ -19,6 +19,21 @@
       <td>(略)</td>
     </tr>
     <tr>
+      <td>自動化測試</td>
+      <td>
+       <ul>
+         <li>原始 HTML</li>
+          <ul>
+            <li>.container 元素下應為空</li>
+          </ul>
+          <li>執行 main.js 之後</li>
+          <ul>
+            <li>tbody 應有 4 筆資料</li>
+          </ul>
+        </ul>
+      </td>
+    </tr>
+    <tr>
       <td>程式邏輯與 Coding Style</td>
       <td>運用 filter 篩選陣列內容，因而不更動到原始資料</td>
     </tr>
