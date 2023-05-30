@@ -52,10 +52,3 @@
 ## 行有餘力：優化品質、擴充規格
 
 本作業為「確認自己掌握正確實作方法」的例行練習，建議同學在 1 小時內完成，不建議刻意優化。
-
-## 作業相關資訊
-
-此作業為前後端共用作業，題程平台原文連結如下：
-
-- 前端([原文連結](https://lighthouse.alphacamp.co/courses/119/assignments/3648))
-- 後端([原文連結](https://lighthouse.alphacamp.co/courses/118/assignments/3646))
