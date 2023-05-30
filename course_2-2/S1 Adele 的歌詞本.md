@@ -106,11 +106,3 @@
     </tr>
   </tbody>
 </table>
-
-## 作業相關資訊
-
-參考課程平台 (<a href="https://lighthouse.alphacamp.co/courses/99/assignments/2990" target="_blank">原文連結</a>)
-
-##### Logs
-
-2021.10.5 取消 Pill 效果使用 Bootstrap 的要求，改成可以用任何方式完成 Pill 效果。
