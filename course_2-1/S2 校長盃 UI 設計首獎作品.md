@@ -95,7 +95,3 @@
     </tr>
   </tbody>
 </table>
-
-## 作業相關資訊
-
-參考課程平台 (<a href="https://lighthouse.alphacamp.co/courses/98/assignments/3628">原文連結</a>)
