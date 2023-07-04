@@ -21,7 +21,7 @@
           <li>用 Express 建立一個簡單的網路應用程式，包括：
             <ul>
               <li>能完成 CRUD 功能與路由設計</li>
-              <li>建立 Express & MongoDB 的連線</li>
+              <li>建立 Express & MySQL 的連線</li>
               <li>建立 seeder 檔案，載入種子資料</li>
               <li>透過 body-parser 從 POST 方法的路由中取得表單資料</li>
             </ul>
@@ -79,8 +79,6 @@
 
 ## 行有餘力：優化品質、擴充規格
 
-下表蒐集了本作業可能延伸的優化方向，主要蒐集自曾獲 `Exceed expectations` 的作品，若你行有餘力、想挑戰自己，可從下表尋找靈感，若你有不同的想法，也歡迎你貢獻新的優化方法。
-
 注意，並非每位同學都需要攻略這些項目，請你先完成基本規格，行有餘力時再來挑戰。
 
 <table>
@@ -130,7 +128,3 @@
     </tr>
   </tbody>
 </table>
-
-## 作業相關資訊
-
-2-3 後端([原文連結](https://lighthouse.alphacamp.co/courses/100/assignments/3019))
