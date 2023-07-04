@@ -84,8 +84,3 @@
   - 提升 coding style
   - 撰寫 README
   - .....等等
-- 若同學在「基本規格外的新嘗試」做出了明確的階段成果（反例是，雖有一些想法，但不知如何實作，只能起個頭，再來和助教討論），若助教評估此同學的「新嘗試」足夠完整，會想推薦給其他同學做為參考，則可考慮給出 `Exceed expectations`
-
-## 作業相關資訊
-
-參考課程平台([原文連結](https://lighthouse.alphacamp.co/courses/118/assignments/3547))。
